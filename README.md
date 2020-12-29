@@ -61,19 +61,12 @@
 ## 📌 네트워크
 
 - [OSI 7 계층](https://github.com/Songwonseok/CS-Study/blob/main/Network/OSI%207%EA%B3%84%EC%B8%B5.md)
-
 - TCP 3 way handshake & 4 way handshake
-
 - TCP/IP 흐름제어 & 혼잡제어
-
 - UDP
-
 - 대칭키 & 공개키
-
 - HTTP & HTTPS
-
 - 로드 밸런싱(Load Balancing)
-
 - Blocking & Non-Blocking I/O
 
   
