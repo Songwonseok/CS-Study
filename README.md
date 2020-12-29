@@ -173,5 +173,17 @@
 - 웹 성능과 관련된 Issues
 - 서버 사이드 렌더링 vs 클라이언트 사이드 렌더링
 - CSS Methodology
-- normalize.css vs reset.css
-- 그 외 프론트엔드 개발 환경 관련
+- Normalize.css vs Reset.css
+- 웹 컴포넌트
+- 쿠키(Cookie) & 세션(Session)
+- 웹 서버와 WAS의 차이점
+- OAuth
+- JWT(JSON Web Token)
+- Authentication & Authorization
+- 로그 레벨
+- UI와 UX
+- Vue.js
+- React
+- Vue.js vs React.js
+- 네이티브 앱 & 웹 앱 & 하이브리드 앱
+- PWA(Progressive Web App)
