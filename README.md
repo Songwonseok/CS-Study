@@ -2,28 +2,28 @@
 
 ## 🌳 Rule
 - 스터디는 매주 월~금 진행
-- 매일 아침 CS주제와 알고리즘 문제를 선정
+- 매일 아침 CS주제와 알고리즘 문제를 선정하여 [wiki](https://github.com/Songwonseok/CS-Study/wiki) 작성
 - 학습한 CS는 마크다운으로 정리해서 17시까지 PR을 생성
 - 학습내용 공유는 자신이 이해한 내용을 가르치듯이 설명
 - **불참 5회시 퇴출**
 
-## 💻타임 테이블
 
-| 시간          | 내용                          |
-| ------------- | ----------------------------- |
-| 10:00 ~ 10:30 | 알고리즘 과제 및 CS 주제 선정 |
-| 10:30 ~ 17:00 | 과제 해결                     |
-| 17:00 ~ 18:00 | CS 학습내용 공유              |
-| 20:00 ~ 21:00 | 알고리즘 코드리뷰             |
-
-
-
-## 💁 스터디원
+## 👨‍💻  스터디원
 
 | 이름   | GitHub                                         |
 | ------ | ---------------------------------------------- |
 | 송원석 | [@Songwonseok](https://github.com/Songwonseok) |
 | 박민식 | [@akstlrdlsms](https://github.com/akstlrdlsms) |
+
+## 💻타임 테이블
+
+|     시간      |             내용              |
+| :-----------: | :---------------------------: |
+| 10:00 ~ 10:30 | 알고리즘 과제 및 CS 주제 선정 |
+| 10:30 ~ 17:00 |           과제 해결           |
+| 17:00 ~ 18:00 |       CS 학습내용 공유        |
+| 20:00 ~ 21:00 |       알고리즘 코드리뷰       |
+
 
 
 
@@ -53,7 +53,7 @@
 - 힙(Heap)
 - 이진탐색트리(Binary Search Tree)
 - 해시(Hash)
-- 트라이(Trie)
+- ㄴ트라이(Trie)
 - B-Tree & B+Tree
 
 
@@ -73,7 +73,7 @@
 
 ## 📌 운영체제
 
-- 운영체제란
+- [운영체제란?](./OS/운영체제란.md)
 - 프로세스 vs 스레드
 - 프로세스 주소 공간
 - 인터럽트(Interrupt)
@@ -173,5 +173,17 @@
 - 웹 성능과 관련된 Issues
 - 서버 사이드 렌더링 vs 클라이언트 사이드 렌더링
 - CSS Methodology
-- normalize.css vs reset.css
-- 그 외 프론트엔드 개발 환경 관련
+- Normalize.css vs Reset.css
+- 웹 컴포넌트
+- 쿠키(Cookie) & 세션(Session)
+- 웹 서버와 WAS의 차이점
+- OAuth
+- JWT(JSON Web Token)
+- Authentication & Authorization
+- 로그 레벨
+- UI와 UX
+- Vue.js
+- React
+- Vue.js vs React.js
+- 네이티브 앱 & 웹 앱 & 하이브리드 앱
+- PWA(Progressive Web App)
