@@ -53,14 +53,14 @@
 - 힙(Heap)
 - 이진탐색트리(Binary Search Tree)
 - 해시(Hash)
-- ㄴ트라이(Trie)
+- 트라이(Trie)
 - B-Tree & B+Tree
 
 
 
 ## 📌 네트워크
 
-- [OSI 7 계층](./Network/OSI 7계층.md)
+- [OSI 7 계층](https://github.com/Songwonseok/CS-Study/blob/main/Network/OSI%207%EA%B3%84%EC%B8%B5.md)
 
 - TCP 3 way handshake & 4 way handshake
 
@@ -80,7 +80,7 @@
 
 ## 📌 운영체제
 
-- [운영체제란?](./OS/운영체제란.md)
+- [운영체제란?](https://github.com/Songwonseok/CS-Study/blob/main/OS/운영체제란.md)
 - 프로세스 vs 스레드
 - 프로세스 주소 공간
 - 인터럽트(Interrupt)

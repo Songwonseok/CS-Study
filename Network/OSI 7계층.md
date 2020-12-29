@@ -15,9 +15,9 @@
 
     
 
-    ![OSI7계층](.\images\OSI7계층 - 1.jpg)
+    ![OSI7계층](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/OSI7계층-1.jpg)
 
-  ![OSI7계층과 단위](.\images\OSI7계층 - 2.jpg)
+  ![OSI7계층과 단위](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/OSI7계층-2.jpg)
 
 - OSI 7 계층의 특징
 
@@ -123,19 +123,19 @@
   - ARP ( ADDRESS RESOLUTION PROTOCOL )
 
     - ARP란 네트워크 상에서 IP 주소를 MAC 주소로 대응시키기 위해 사용하는 프로토콜
-      
+  
 - 송신자와 수신자 사이 매우 많은 서버와 라우터들이 있어서 직접적으로 데이터를 전송할 수 없다. 비트( 0과 1)로 이루어진 전기적 신호는 MAC주소를 필요로하기 때문에 ARP가 필요하다.
-      
+  
 - ARP 작동원리
-    
+  
    1. 송신자는 수신자의 MAC주소가 알고싶다.
-    
+   
    2. 하지만 송신자가 가지고 있는 것은 수신자의 IP주소밖에 없다.
-    
+   
    3. 그래서 송신자는 BROADCAST ADDRESS를 이용해서 모든 기기에 IP 주소를 가지고 있는 노드는 MAC주소를 송신자에게 보내라고 전달한다.
-    
+   
    4. 해당 노드는 MAC주소를 송신자에게 전달한다.
-    
+   
           ps. MAC주소는 직접 연결된 (스위치, 허브, 라우터 등)에서만 사용할 수 있다.
 
 
