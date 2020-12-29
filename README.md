@@ -15,6 +15,7 @@
 | 송원석 | [@Songwonseok](https://github.com/Songwonseok) |
 | 박민식 | [@akstlrdlsms](https://github.com/akstlrdlsms) |
 
+
 ## 💻 타임 테이블
 
 |     시간      |             내용              |
@@ -24,14 +25,11 @@
 | 17:00 ~ 18:00 |       CS 학습내용 공유        |
 | 20:00 ~ 21:00 |       알고리즘 코드리뷰       |
 
-<br>
-
 ## 📚 알고리즘 Study
 
 - [Daily 과제](https://github.com/Songwonseok/CS-Study/wiki#-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C)
 - [Java 소스파일](https://github.com/Songwonseok/CS-Study/tree/main/Algorithm/Solution)
 
-<br>
 
 # 학습 주제
 학습주제는 [여기](https://github.com/gyoogle/tech-interview-for-developer)를 참고했습니다.
