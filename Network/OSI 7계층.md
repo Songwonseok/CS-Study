@@ -15,9 +15,9 @@
 
     
 
-    ![OSI7계층](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/OSI7계층-1.jpg)
+    ![OSI7계층](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/OSI7계층-1.JPG)
 
-  ![OSI7계층과 단위](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/OSI7계층-2.jpg)
+  ![OSI7계층과 단위](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/OSI7계층-2.JPG)
 
 - OSI 7 계층의 특징
 
