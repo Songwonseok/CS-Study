@@ -55,7 +55,7 @@
   - Resource 부분만을 수정하는데 사용
     
 
-![HTTP-Mehtod-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main\Web\images\HTTP-Mehtod-1.JPG)
+![HTTP-Mehtod-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Web/images/HTTP-Mehtod-1.JPG)
 
 
 

@@ -6,7 +6,7 @@
 - 웹의 기존 기술과 HTTP 프로토콜을 그대로 활욯하기 때문에 웹의 장점을 최대한 활용할 수 있는 아키텍처 스타일이다.
 - HTTP URI를 통해 자원을 명시하고, HTTP Method를 통해 해당 자원에 대한 CRUD 작동을 적용한다.
 
-![RESTful-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Web\images\RESTful-1.JPG)
+![RESTful-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Web/images/RESTful-1.JPG)
 
 ### RESTful 이란?
 
