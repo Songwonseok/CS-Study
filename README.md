@@ -167,7 +167,7 @@
 ## 📌 Web
 
 - [HTTP Method](https://github.com/Songwonseok/CS-Study/blob/main/Web/HTTP-Method.md)
-- [RESTFul API 란?](https://github.com/Songwonseok/CS-Study/blob/main/Web/RESTFul-API)
+- [RESTFul API 란?](https://github.com/Songwonseok/CS-Study/blob/main/Web/RESTFul-API.md)
 - 브라우저의 작동 원리
 - Document Object Model
   - Event Bubbling and Capturing
