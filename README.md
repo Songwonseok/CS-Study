@@ -50,9 +50,7 @@
 
 ## 📌 자료구조
 
-- Array
-- LinkedList
-- Array & ArrayList & LinkedList
+- [Array & ArrayList & LinkedList](https://github.com/Songwonseok/CS-Study/blob/main/DataStructure/Array&ArrayList&LinkedList.md)
 - 스택(Stack) & 큐(Queue)
 - 힙(Heap)
 - 이진탐색트리(Binary Search Tree)
