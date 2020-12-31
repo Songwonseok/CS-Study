@@ -44,6 +44,9 @@
 - 데브옵스(DevOps)
 - 서드 파티(3rd party)란?
 - Git 과 GitHub 에 대해서
+- 정규식
+- Generic
+- final
 
 
 
@@ -141,16 +144,22 @@
 ## 📌 Language
 
 - Java
-  - JVM 에 대해서 / GC 의 원리
-  - Collection
+  - [Java 컴파일 과정](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Java%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EA%B3%BC%EC%A0%95.md)
+  - [자바 가상 머신(Java Virtual Machine)](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/JVM.md)
+  - Garbage Collection
   - Annotation
-  - Generic
-  - final
+  - Call by Value vs Call by Reference
+  - Primitive type & Reference type
+  - String & StringBuffer & StringBuilder
   - Overriding vs Overloading
+  - Thread 활용
+  - Casting(업캐스팅 & 다운캐스팅)
+  - Promotion & Casting
+  - 고유 락(Intrinsic Lock)
+  - Error & Exception
+  - java 8 & java 11 차이
   - Access Modifier
   - Wrapper class
-  - Multi-Thread 환경에서의 개발
-  - java 8 & java 11 차이
 - Javascript
   - JavaScript Event Loop
   - Hoisting
