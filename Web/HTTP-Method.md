@@ -70,17 +70,17 @@
   - 100 - continue
     - HTTP Client Application에서 서버에 Entiti Body를 보내기 전에 해당 Body를 받을 수 있는지 서버에 check 해볼 때 사용
     - 즉 웹서버가 해당 응답을 할수 있도록 구현 했다면 100 continue로 응답한다.
-- **2xx (성공) ** 
+- **2xx (성공)** 
   - 200 - OK
   - 201 - Created ( PUT 메서드로 서버에 파일 생성)
   - 202 - Accepted (서버 명령 수신)
   - 203 - 서버가 Client 요구 중 일부만 전송
   - 204 - OK **but** 전송할 데이터 없음
-- **3xx (경로 이동) **
+- **3xx (경로 이동)** 
   - 301 - 요구한 데이터를 변경된 타 URL에 요청
   - 302 - Not temporarily (번역으로는 "일시적이지 않음")
   - 304 - 로컬의 캐시 정보를 이용함
-- **4xx (요청 오류) **
+- **4xx (요청 오류)** 
   - 400 - Bad Requst / 사용자의 잘못된 요청
   - 401 - Unauthorized / 인증이 필요한 페이지 요청
   - 402 - Payment required / 예약됨
