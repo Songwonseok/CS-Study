@@ -36,8 +36,7 @@
 
 ## 📌 개발상식
 
-- 클린코드 & 리팩토링 
-- 클린코드 & 시큐어코딩
+- [클린코드 & 리팩토링 & 시큐어코딩](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C%26%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%26%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9.md)
 - TDD(Test Driven Development)
 - 애자일(Agile) 정리
 - 객체 지향 프로그래밍
