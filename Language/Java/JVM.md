@@ -4,7 +4,7 @@
 
 
 
-![img](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\java-JVM-1.PNG)
+![img](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/java-JVM-1.PNG?raw=true)
 
 
 
@@ -45,7 +45,7 @@ JVM 실행에 있어서 가장 일반적인 상호작용은, 힙과 스택의 �
 
 
 
-![img](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\java-JVM-3.PNG)
+![img](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/java-JVM-2.PNG?raw=true)
 
 ### 자바 컴파일러
 
@@ -83,7 +83,7 @@ Java는 컴파일이 아니라 런타임시에 클래스를 참조한다. 즉, �
 - 총 5가지 영역으로 나누어짐 - PC 레지스터, JVM 스택, 네이티브 메서드 스택, 힙, 메서드 영역
   - 이 중에 힙과 메서드 영역은 모든 스레드가 공유해서 사용함
 
-![java-JVM-3](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\java-JVM-3.PNG)
+![img](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/java-JVM-3.PNG?raw=true)
 
 1. **메서드 영역** : JVM이 시작될 때 생성되고, JVM이 읽은 각각의 클래스와 인터페이스에 대한 런타임 상수풀, 필드 및 메서드 코드, 정적 변수(static), 메서드의 바이트 코드 등을 보관함
 2. **힙** : 런타임에 동적으로 할당되는 데이터가 저장되는 영역. 객체나 배열 생성이 여기에 해당함
