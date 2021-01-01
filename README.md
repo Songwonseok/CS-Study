@@ -1,7 +1,7 @@
 # CS-Study
 
 ## 🌳 Rule
-- 스터디는 매주 월~금 진행
+- 스터디는 매주 월~금 진행 (공휴일은 x)
 - 매일 아침 CS주제와 알고리즘 문제를 선정하여 [wiki](https://github.com/Songwonseok/CS-Study/wiki) 작성
 - 학습한 CS는 마크다운으로 정리해서 17시까지 PR을 생성
 - 학습내용 공유는 자신이 이해한 내용을 가르치듯이 설명
