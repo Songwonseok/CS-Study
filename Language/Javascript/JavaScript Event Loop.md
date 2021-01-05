@@ -12,7 +12,7 @@
 
 아래는 자바스크립트 엔진의 모습이다.
 
-![Alt Javascript Engine](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-event-loop-1.PNG)
+![Alt Javascript Engine](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-event-loop-1.PNG?raw=true)
 
 - 자바스크립트 엔진
   - Heap : 메모리 할당이 일어나는 영역
@@ -33,7 +33,7 @@
     - Timeout(setTimeout)
   - Event Loop
 
-![js-event-loop-1](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-event-loop-2.PNG)
+![js-event-loop-2](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-event-loop-2.PNG?raw=true)
 
 위 그림과 같이 우리가 비동기 호출을 위해 사용하는 Web API과 Event Loop, Task Queue는 자바스크립트 엔진 외부에 런타임 환경에 구현이 되어있다.
 
@@ -74,7 +74,7 @@ foo();
 
 위의 코드가 전역 환경에서 실행된다고 가정하고 코드내 주석으로 숫자가 적힌 각 시점의 호출 스택을 그림으로 그려보면 다음과 같을 것이다.
 
-![js-event-loop-3](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-event-loop-3.PNG)
+![js-event-loop-3](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-event-loop-3.PNG?raw=true)
 
 `setTimeout` 함수는 브라우저에게 타이머 이벤트를 요청한 후에 바로 스택에서 제거된다. 그 후에 `foo` 함수가 스택에 추가되고, `foo` 함수가 내부적으로 실행하는 함수들이 차례로 스택에 추가되었다가 제거된다. 마지막으로 `foo` 함수가 실행을 마치면서 호출 스택이 비워지게 되고, 그 이후에 `baz` 함수가 스택에 추가되어 콘솔에 'baz!'가 찍히게 된다.
 
@@ -94,7 +94,7 @@ Task Queue는 말 그대로 콜백 함수들이 대기하는 큐(FIFO) 형태의
 
 이벤트 루프는 하나의 단순한 동작만을 수행한다. 호출 스택과 Task Queue를 감시하면서, 만약 호출 스택이 비어있다면 이벤트 루프는 큐에서 첫 번째 Task를 호출 스택에 넣고 해당 Task가 수행된다.
 
-![Alt Event Loop](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-event-loop-4.PNG)
+![Alt Event Loop](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-event-loop-4.PNG?raw=true)
 
 이러한 반복을 이벤트 루프에서는 `tick`이라고 한다.
 

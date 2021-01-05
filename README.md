@@ -161,7 +161,7 @@
   - Access Modifier
   - Wrapper class
 - Javascript
-  - JavaScript Event Loop
+  - [JS Event Loop](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/JavaScript%20Event%20Loop.md)
   - Hoisting
   - Closure
   - this 에 대해서
