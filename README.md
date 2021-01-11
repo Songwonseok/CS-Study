@@ -174,10 +174,11 @@
 
 - [HTTP Method](https://github.com/Songwonseok/CS-Study/blob/main/Web/HTTP-Method.md)
 - [RESTFul API 란?](https://github.com/Songwonseok/CS-Study/blob/main/Web/RESTFul-API.md)
-- 브라우저의 작동 원리
-- Document Object Model
-  - Event Bubbling and Capturing
-  - Event delegation
+- [브라우저의 작동 원리](https://github.com/Songwonseok/CS-Study/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC.md)
+- DOM(Document Object Model)
+  - [Event Bubbling and Capturing](https://github.com/Songwonseok/CS-Study/blob/main/Web/Event-Bubbling%26Capturing.md)
+  - [Event delegation](https://github.com/Songwonseok/CS-Study/blob/feature/web-sws/Web/Event-Delegation.md)
+- [CSS Selector 우선순위](https://github.com/Songwonseok/CS-Study/blob/main/Web/CSS%20%EC%84%A0%ED%83%9D%EC%9E%90%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84.md)
 - CORS
 - 크로스 브라우징
 - 웹 성능과 관련된 Issues

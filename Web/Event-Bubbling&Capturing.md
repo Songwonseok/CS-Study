@@ -50,7 +50,7 @@
 3. 그 바깥의 `<form>`에 할당된 핸들러가 동작합니다.
 4. `document` 객체를 만날 때까지, 각 요소에 할당된 `onclick` 핸들러가 동작합니다.
 
-![bublling&caturing-1](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Web\images\bublling&caturing-1.PNG)
+![bublling&caturing-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Web/images/bublling%26caturing-1.PNG)
 
 이런 동작 방식 때문에 `<p>` 요소를 클릭하면 `p` → `div` → `form` 순서로 3개의 얼럿 창이 뜨는것이죠.
 
@@ -158,7 +158,7 @@
 
 테이블 안의 `<td>`를 클릭하면 어떻게 이벤트가 흐르는지 아래 그림을 보고 이해해 봅시다.
 
-![bublling&caturing-2](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Web\images\bublling&caturing-2.PNG)
+![bublling&caturing-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Web/images/bublling%26caturing-2.PNG)
 
 `<td>`를 클릭하면 이벤트가 최상위 조상에서 시작해 아래로 전파되고(캡처링 단계), 이벤트가 타깃 요소에 도착해 실행된 후(타깃 단계), 다시 위로 전파됩니다(버블링 단계). 이런 과정을 통해 요소에 할당된 이벤트 핸들러가 호출됩니다.
 

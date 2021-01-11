@@ -76,7 +76,7 @@ function highlight(td) {
 
 `<strong>`을 클릭하면 `event.target`에 `<strong>`에 해당하는 요소가 저장됩니다.
 
-![delegation](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Web\images\delegation.PNG)
+![delegation](https://github.com/Songwonseok/CS-Study/blob/main/Web/images/delegation.PNG?raw=true)
 
 따라서 `table.onclick` 핸들러에서 `event.target`을 이용해 클릭 이벤트가 `<td>`안쪽에서 일어났는지 아닌지를 알아내야 합니다.
 
