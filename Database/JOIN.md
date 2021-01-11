@@ -14,7 +14,7 @@
 
     교차 조인은 두 테이블의 곱집합을 한 결과이다. 특별한 조건 없이 테이블 A의 각 행과 테이블 B의 각 행을 다 조합한 결과를 보여준다.
 
-    ![JOIN-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/JOIN-1.JPG)
+    ![JOIN-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/JOIN-1.JPG)
 
   - 내부 조인
 
@@ -28,11 +28,11 @@
 
     테이블 A의 모든 데이터와 테이블 A,B의 교집합 결과를 포함하는 조인이다.
 
-    ![JOIN-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/JOIN-2.JPG)
+    ![JOIN-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/JOIN-2.JPG)
 
     
 
-    ![JOIN-2-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/JOIN-2-1.JPG)
+    ![JOIN-2-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/JOIN-2-1.JPG)
 
     
 
@@ -40,9 +40,9 @@
 
     테이블 B의 모든 데이터와 테이블 A,B의 교집합 결과를 포함하는 조인이다.
 
-    ![JOIN-3](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/JOIN-3.JPG)
+    ![JOIN-3](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/JOIN-3.JPG)
 
-    ![JOIN-3-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/JOIN-3-1.JPG)
+    ![JOIN-3-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/JOIN-3-1.JPG)
 
     
 
@@ -50,9 +50,9 @@
 
     LEFT OUTER JOIN과 RIGHT OUTER JOIN을 합친 것으로, 양쪽 모두 조건이 일치하지 않는 데이터까지 모두 결합해 출력한다.
 
-    ![JOIN-4](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/JOIN-4.JPG)
+    ![JOIN-4](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/JOIN-4.JPG)
 
-    ![JOIN-4-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/JOIN-4-1.JPG)
+    ![JOIN-4-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/JOIN-4-1.JPG)
 
     
 
@@ -62,7 +62,7 @@
 
   ![셀프조인](https://user-images.githubusercontent.com/7006837/90200662-909a5600-de13-11ea-805b-091bd80710bc.png)
 
-  ![JOIN-5](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/JOIN-5.JPG)
+  ![JOIN-5](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/JOIN-5.JPG)
 
 
 
