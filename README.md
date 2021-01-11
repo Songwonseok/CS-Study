@@ -97,8 +97,8 @@
 
 ## 📌 데이터베이스
 
-- 키(Key) 정리
-- SQL - JOIN
+- [키(Key) 정리](https://github.com/Songwonseok/CS-Study/blob/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/%ED%82%A4(Key)%20%EC%A0%95%EB%A6%AC.md)
+- [SQL - JOIN](https://github.com/Songwonseok/CS-Study/blob/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/JOIN.md)
 - SQL Injection
 - SQL vs NoSQL
 - 이상(Anomaly)
