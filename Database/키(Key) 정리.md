@@ -21,7 +21,7 @@
 
 
 
-![키정리-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Database\images\키정리-1.JPG)
+![키정리-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/%ED%82%A4%EC%A0%95%EB%A6%AC-1.JPG)
 
 (신용카드번호), (주민등록번호) 애트리뷰트는 하나만으로 튜플을 고유식별 할 수 있기 때문에 수퍼키, 후보 키 모두 가능
 
@@ -29,7 +29,7 @@
 
 왜냐하면 (신용카드번호) 애트리뷰트만 있어도 고유식별을 할 수 있기 때문이다.
 
-![키정리-2](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Database\images\키정리-2.JPG)
+![키정리-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/%ED%82%A4%EC%A0%95%EB%A6%AC-2.JPG)
 
 그렇다고 후보키가 하나만의 애트리뷰트로 구성되는 것만은 아니다. 위의 릴레이션에서 (학번), (과목번호),(학점)
 
@@ -62,7 +62,7 @@
     - 자연 키를 대체하여 성능을 향상시킨다.
     - 중요한 자료를 대체하여 보안상 이득을 얻는다.
 
-  ![키정리-6](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Database\images\키정리-6.JPG)
+  ![키정리-6](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/%ED%82%A4%EC%A0%95%EB%A6%AC-6.JPG)
 
 - 대체 키
 
@@ -86,7 +86,7 @@
 
   1. 다른 릴레이션의 기본 키를 참조하는 외래 키
 
-     ![키정리-3](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Database\images\키정리-3.JPG)
+     ![키정리-3](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/%ED%82%A4%EC%A0%95%EB%A6%AC-3.JPG)
 
      직원 릴레이션의 외래 키 (소속 부서 번호)는 부서 릴레이션의 기본 키인 (부서 번호)를 참조하고 있다.
 
@@ -94,7 +94,7 @@
 
   2.  자체 릴레이션의 기본 키를 참조하는 외래 키
 
-     ![키정리-4](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Database\images\키정리-4.JPG)
+     ![키정리-4](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/%ED%82%A4%EC%A0%95%EB%A6%AC-4.JPG)
 
      ​	직원 릴레이션의 외래 키 (직속 상관)은 자체 릴레이션의 기본 키인 (직원 번호)를 참조하고 있다.
 
@@ -104,7 +104,7 @@
 
   3. 기본 키의 구성요소가 되는 외래 키
 
-     ![키정리-5](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Database\images\키정리-5.JPG)
+     ![키정리-5](https://raw.githubusercontent.com/Songwonseok/CS-Study/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/images/%ED%82%A4%EC%A0%95%EB%A6%AC-5.JPG)
 
      수강 릴레이션의 기본 키는 두 개의 외래키 (학번, 과목번호)로 이루어짐. 즉 수강 릴레이션의 두 개의 외래키는 수강 릴레이션의 기본 키의 구성요소도 된다.
 
