@@ -99,7 +99,7 @@ UML도 종류가 많지만, 디자인 패턴에서는 클래스 다이어그램�
 
 ​	 
 
-<img src="https://raw.githubusercontent.com/Songwonseok/CS-Study/main/DesignPattern/images/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B0%9C%EC%9A%94-1.png" alt="디자인패턴개요-3" style="zoom: 33%;" />
+<img src="https://raw.githubusercontent.com/Songwonseok/CS-Study/main/DesignPattern/images/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B0%9C%EC%9A%94-3.png" alt="디자인패턴개요-3" style="zoom: 33%;" />
 
 
 
