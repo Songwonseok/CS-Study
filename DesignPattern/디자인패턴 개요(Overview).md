@@ -87,19 +87,19 @@
 
 UML도 종류가 많지만, 디자인 패턴에서는 클래스 다이어그램을 중심으로 이용한다.
 
-![디자인패턴개요-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\DesignPattern\images\디자인패턴개요-1.png)
+![디자인패턴개요-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/DesignPattern/images/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B0%9C%EC%9A%94-1.png)
 
 ​																		
 
  
 
-​                          <img src="C:\Users\박민식\Desktop\MY문서\CS\CS-Study\DesignPattern\images\디자인패턴개요-2.png" alt="디자인패턴개요-2" style="zoom: 50%;" />
+​                          <img src="https://raw.githubusercontent.com/Songwonseok/CS-Study/main/DesignPattern/images/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B0%9C%EC%9A%94-2.png" alt="디자인패턴개요-2" style="zoom: 50%;" />
 
 ​																		       		**일반화**
 
 ​	 
 
-<img src="C:\Users\박민식\Desktop\MY문서\CS\CS-Study\DesignPattern\images\디자인패턴개요-3.png" alt="디자인패턴개요-3" style="zoom: 33%;" />
+<img src="https://raw.githubusercontent.com/Songwonseok/CS-Study/main/DesignPattern/images/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B0%9C%EC%9A%94-1.png" alt="디자인패턴개요-3" style="zoom: 33%;" />
 
 
 
@@ -107,7 +107,7 @@ UML도 종류가 많지만, 디자인 패턴에서는 클래스 다이어그램�
 
 
 
-<img src="C:\Users\박민식\Desktop\MY문서\CS\CS-Study\DesignPattern\images\디자인패턴개요-4.png" alt="디자인패턴개요-4" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/Songwonseok/CS-Study/main/DesignPattern/images/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4%EA%B0%9C%EC%9A%94-4.png" alt="디자인패턴개요-4" style="zoom:33%;" />
 
 ​																			**인터페이스**
 
