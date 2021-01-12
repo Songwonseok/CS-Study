@@ -56,7 +56,7 @@ void insertionSort(int[] arr)
 
 ## GIF로 이해하는 Insertion Sort
 
-![img](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\insertionsort.GIF)
+![img](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/insertionsort.GIF?raw=true)
 
 
 

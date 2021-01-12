@@ -55,7 +55,7 @@ void selectionSort(int[] arr) {
 
 ## GIF로 이해하는 Selection Sort
 
-![img](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\selectionsort.GIF)
+![img](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/selectionsort.GIF?raw=true)
 
 
 
