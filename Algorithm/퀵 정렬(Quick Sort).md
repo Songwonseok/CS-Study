@@ -27,7 +27,7 @@
 - 배열에 5, 3, 8, 4, 9, 1, 6, 2, 7이 저장되어 있다고 가정하고 자료를 오름차순으로 정렬해 보자.
 
 - 퀵 정렬에서 피벗을 기준으로 두 개의 리스트로 나누는 과정(c언어 코드의 partition 함수의 내용)
-- ![quicksort-1](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\images\quicksort-1.PNG)
+- ![quicksort-1](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/quicksort-1.PNG?raw=true)
 
 - 피벗 값을 입력 리스트의 첫 번째 데이터로 하자. (다른 임의의 값이어도 상관없다.)
 
@@ -100,7 +100,7 @@ public static void quicksort(int[] array, int left, int right) {
 
 ## GIF로 이해하는 Quick Sort
 
-![quicksort](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\images\quicksort.GIF)
+![quicksort](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/quicksort.GIF?raw=true)
 
 
 
@@ -110,7 +110,7 @@ public static void quicksort(int[] array, int left, int right) {
 
 - 비교 횟수
 
-  ![quicksort-2](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\images\quicksort-2.PNG)
+  ![quicksort-2](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/quicksort-2.PNG?raw=true)
 
 - 순환 호출의 깊이
 
@@ -137,7 +137,7 @@ public static void quicksort(int[] array, int left, int right) {
 
 - 리스트가 계속 불균형하게 나누어지는 경우 (특히, 이미 정렬된 리스트에 대하여 퀵 정렬을 실행하는 경우)
 
-  ![quicksort-3](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\images\quicksort-3.PNG)
+  ![quicksort-3](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/quicksort-3.PNG?raw=true)
 
 - 비교 횟수
   - 순환 호출의 깊이
@@ -148,6 +148,7 @@ public static void quicksort(int[] array, int left, int right) {
     - 평균 n번
   - 순환 호출의 깊이 * 각 순환 호출 단계의 비교 연산 = n^2
 - 이동 횟수
+  
   - 비교 횟수보다 적으므로 무시할 수 있다.
 - **최악의 경우 T(n) = n^2**
 

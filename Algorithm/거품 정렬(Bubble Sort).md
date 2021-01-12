@@ -53,7 +53,7 @@ void bubbleSort(int[] arr) {
 
 ## GIF로 이해하는 Bubble Sort
 
-[![img](https://github.com/GimunLee/tech-refrigerator/raw/master/Algorithm/resources/bubble-sort-001.gif)](https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/bubble-sort-001.gif)
+![img](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\bubblesort.GIF)
 
 
 

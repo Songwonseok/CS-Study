@@ -49,7 +49,7 @@
   3. 만약 둘 중에서 하나의 리스트가 먼저 끝나게 되면 나머지 리스트의 값들을 전부 새로운 리스트(sorted)로 복사한다.
   4. 새로운 리스트(sorted)를 원래의 리스트(list)로 옮긴다.
 
-- ![mergesort-1](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\images\mergesort-1.PNG)
+- ![mergesort-1](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/mergesort-1.PNG?raw=true)
 
 
 
@@ -99,7 +99,7 @@ public static void merge(int[] array, int left, int mid, int right) {
 
 ## GIF로 이해하는 Merge Sort
 
-![mergesort](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\images\mergesort.GIF)
+![mergesort](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/mergesort.GIF?raw=true)
 
 ## 시간복잡도
 
