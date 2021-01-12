@@ -123,11 +123,11 @@
 
 ## 📌 Algorithm
 
-- 거품 정렬(Bubble Sort)
-- 선택 정렬(Selection Sort)
-- 삽입 정렬(Insertion Sort)
-- 퀵 정렬(Quick Sort)
-- 병합 정렬(Merge Sort)
+- [거품 정렬(Bubble Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC(Bubble%20Sort).md)
+- [선택 정렬(Selection Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort).md)
+- [삽입 정렬(Insertion Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort).md)
+- [퀵 정렬(Quick Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md)
+- [합병 정렬(Merge Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%ED%95%A9%EB%B3%91%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md)
 - 힙 정렬(Heap Sort)
 - 기수 정렬(Radix Sort)
 - 계수 정렬(Count Sort)
