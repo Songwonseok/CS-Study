@@ -24,7 +24,7 @@
   1. Stop and wait 방식
 
      - 매 번 전송한 패킷에 대해 확인응답을 받아야만 그 다음 패킷을 전송하는 방법
-     - ![TCPIP-흐름제어&혼잡제어-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCPIP-흐름제어&혼잡제어-1.png)
+     - ![TCPIP-흐름제어&혼잡제어-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCPIP-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%26%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-1.png)
 
   2. Sliding Window 방식
 
@@ -38,13 +38,13 @@
 
        **윈도우(Window)** : TCP/IP를 사용하는 모든 호스트들은 송신과 수신을 위해 2개의 윈도우를 가지고 있다. 호스트들은 실제 데이터를 보내기 전 3 way handshaking을 통해 수신 호스트의 receive window size만큼 자신의 send window size를 맞추어야 한다.
 
-       ![TCPIP-흐름제어&혼잡제어-2](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCPIP-흐름제어&혼잡제어-2.png)
+       ![TCPIP-흐름제어&혼잡제어-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCPIP-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%26%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-2.png)
 
        
 
        - 송신버퍼
 
-         ​	![TCPIP-흐름제어&혼잡제어-3](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCPIP-흐름제어&혼잡제어-3.png)
+         ​	![TCPIP-흐름제어&혼잡제어-3](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCPIP-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%26%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-3.png)
 
          1. 200이전(200 오른쪽)의 바이트는 이미 전송되었고, 확인응답을 받은 상태
 
@@ -55,7 +55,7 @@
 
        - 수신 윈도우
 
-         ![TCPIP-흐름제어&혼잡제어-4](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCPIP-흐름제어&혼잡제어-4.png)
+         ![TCPIP-흐름제어&혼잡제어-4](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCPIP-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%26%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-4.png)
 
          1.  수신 프로세스가 처리할 바이트는 194바이트부터 이다.
          2. 수신 윈도우는 200의 수신을 기다린다.
@@ -64,7 +64,7 @@
 
        - 송신 윈도우
 
-         ![TCPIP-흐름제어&혼잡제어-5](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCPIP-흐름제어&혼잡제어-5.png)
+         ![TCPIP-흐름제어&혼잡제어-5](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCPIP-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%26%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-5.png)
 
          1.  수신 윈도우보다 작거나 같은 크기로 송신 위도우를 지정하게 되면 흐름제어 가능
 
@@ -72,7 +72,7 @@
 
        - 송신 윈도우의 이동
 
-         ![TCPIP-흐름제어&혼잡제어-6](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCPIP-흐름제어&혼잡제어-6.png)
+         ![TCPIP-흐름제어&혼잡제어-6](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCPIP-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%26%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-6.png)
 
          1. Before상태에서 203~204를 전송하면 수신측에서 확인응답으로 203을 보내준다.
          2. 송신측은 이를 확인응답을 받아 After사애와 같이 윈도우를 203~209범위로 이동시킨다.
@@ -85,7 +85,7 @@
 - 한 라우터에 데이터가 몰리는 경우 등의 네트워크의 혼잡을 피하기 위해 송신측에서 보내는 데이터의 전송속도를 강제로 줄이는 작업
 - 네트워크 내에 패킷의 수가 과도하게 증가하는 현상을 방지하는 현상도 혼잡제어라 부른다.
 - 송신측과 수신측 사이의 전송속도를 다루는 흐름제어 와는 혼잡제어는 **호스트와 라우터를 포함한 넓은 관점에서의 전송문제를 다룬다.**
-- ![TCPIP-흐름제어&혼잡제어-7](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCPIP-흐름제어&혼잡제어-7.png)
+- ![TCPIP-흐름제어&혼잡제어-7](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCPIP-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%26%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4-7.png)
 
 
 

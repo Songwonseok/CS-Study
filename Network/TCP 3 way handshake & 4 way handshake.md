@@ -18,7 +18,7 @@ TCP는 전송계층(제 4계층)에서 사용하는 프로토콜로 신뢰성을
 
     (전송하기 전 정확한 전송을 보장하기 위해 상대방 컴퓨터와 사전에 세션을 수립하는 과정)
 
-  - ![TCP-3-way-handshake&4-way-handshake-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCP-3-way-handshake&4-way-handshake-1.png)
+  - ![TCP-3-way-handshake&4-way-handshake-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCP-3-way-handshake%264-way-handshake-1.png)
 
   - A프로세스(Client)가 B프로세스(Server)에 연결을 요청 할 때
 
@@ -44,7 +44,7 @@ TCP는 전송계층(제 4계층)에서 사용하는 프로토콜로 신뢰성을
 
   - **TCP의 연결을 해제** 하는 과정
 
-  - ![TCP-3-way-handshake&4-way-handshake-2](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Network\images\TCP-3-way-handshake&4-way-handshake-2.png)
+  - ![TCP-3-way-handshake&4-way-handshake-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Network/images/TCP-3-way-handshake%264-way-handshake-2.png)
 
   - A프로세스(Client)가 B프로세스(Server)에 연결 해제를 요청할 때
 
