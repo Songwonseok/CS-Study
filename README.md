@@ -53,8 +53,8 @@
 ## 📌 자료구조
 
 - [Array & ArrayList & LinkedList](https://github.com/Songwonseok/CS-Study/blob/main/DataStructure/Array&ArrayList&LinkedList.md)
-- 스택(Stack) & 큐(Queue)
-- 힙(Heap)
+- [스택(Stack) & 큐(Queue)](https://github.com/Songwonseok/CS-Study/blob/main/DataStructure/Stack%20%26%20Queue.md)
+- [힙(Heap)](https://github.com/Songwonseok/CS-Study/blob/main/DataStructure/Heap.md)
 - 이진탐색트리(Binary Search Tree)
 - 해시(Hash)
 - 트라이(Trie)
