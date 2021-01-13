@@ -109,3 +109,11 @@
 4. Fast Recovery (빠른 회복)
    - 빠른 회복 정책은 혼잡한 상태가 되면 윈도우크기를 1로 줄이지 않고 반으로 줄이고 선형 증가시키는 방법이다.
    - 혼잡상황을 한 번 겪고나서부터는 순수한 합 증가 / 곱 감소 방식으로 동작하게 된다.
+
+
+
+[참고블로그1](https://jwprogramming.tistory.com/36)
+
+[참고블로그2](https://gyoogle.dev/blog/computer-science/network/%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20&%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4.html)
+
+[참고블로그3](https://rok93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-TCP-%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4)
