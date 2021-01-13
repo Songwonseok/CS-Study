@@ -68,13 +68,13 @@ baz(); // 4
 
 일단 중요한 부분은 2~4번, 그리고 7번이다. **`bar`는 자신이 생성된 렉시컬 스코프에서 벗어나 global에서 `baz`라는 이름으로 호출이 되었고, 스코프 탐색은 현재 실행 스택과 관련 없는 `foo`를 거쳐 갔다.** `baz`를 `bar`로 초기화할 때는 이미 `bar`의 `outer lexical environment`를 `foo`로 결정한 이후이다. 때문에, `bar`의 생성과 직접적인 관련이 없는 `global`에서 아무리 호출하더라도 여전히 `foo`에서 `color`를 찾는 것이다. 이런 `bar(또는 baz)`와 같은 함수를 우리는 클로저라고 부른다.
 
-![closure2.png](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-closure-1.PNG)
+![closure2.png](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-closure-1.PNG?raw=true)
 
 여기에서 다시 한번 강조하지만 JS의 스코프는 렉시컬 스코프, 즉 이름의 범위는 소스코드가 작성된 그 문맥에서 바로 결정되는 것이다.
 
 추가로, `foo`의 렉시컬환경 인스턴스는 `foo();`수행이 끝난 이후 GC가 회수해야 하는데 사실을 그렇지 않다. 앞에 설명했듯 `bar`는 여전히 바깥 렉시컬 환경인 `foo`의 렉시컬 환경을 계속 참조하고 있고, 이 `bar`는 `baz`가 여전히 참조하고 있기 때문이다.(`baz(=bar) -> foo`)
 
-![gc-closure.png](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-closure-2.PNG)
+![gc-closure.png](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-closure-2.PNG?raw=true)
 
 ### 유명하고 또 유명한 반복문 클로저
 

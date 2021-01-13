@@ -85,7 +85,7 @@ ES6가 표준화되면서, 블록 레벨과 함수 레벨을 모두 지원하게
 
 동적 스코프와 렉시컬 스코프는 자바스크립트와 Perl을 비교하여 확인할 수 있다. 아래는 자바스크립트와 Perl로 같은 코드를 작성하였을 때 나오는 결과이다.
 
-![lexical-scope-js.png](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-scope-1.PNG)
+![lexical-scope-js.png](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-scope-1.PNG?raw=true)
 
 자바스크립트는 렉시컬 스코프 규칙을 통해 `global, global`을 출력하였으며, Perl은 동적 스코프 규칙을 통해 `local, global`을 출력하였다. (참고로 Perl에서 `local`대신 `my`키워드를 사용하면 변수의 유효범위를 제한하여, 자바스크립트와 같은 결과를 얻을 수 있다.)
 
@@ -105,13 +105,13 @@ ES6가 표준화되면서, 블록 레벨과 함수 레벨을 모두 지원하게
 
 간단하게 그림으로 표현해보면 아래와 같은 형태로 볼 수 있다.
 
-![execution-context.png](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-scope-2.PNG)
+![execution-context.png](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-scope-2.PNG?raw=true)
 
 앞에서 설명한 "이름:값의 대응표"가 환경 레코드와 같다고 볼 수 있고, 렉시컬 환경은 이 환경 레코드와 상위 렉시켤 환경(Outer lexical environment)에 대한 참조로 이루어진다.
 
 현재-렉시컬 환경의 대응표(환경 레코드)에서 변수를 찾아보고, 없다면 바깥 렉시컬 환경을 참조하여 찾아보는 식으로 중첩 스코프가 가능해진다. 이 중첩 스코프 탐색은 해당하는 이름을 찾거나 바깥 렉시컬 환경 참조가 `null`이 될 때 탐색을 멈춘다.
 
-![scop-chain.png](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Language\images\js-scope-3.PNG)
+![scop-chain.png](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/js-scope-3.PNG?raw=true)
 
 참고: ECMA-262 Edition3를 보면 자바스크립트의 스코프적 특징은 `Scope chain`(=list)과 `Activation Object`등의 개념으로 설명하였다. 그리고 이 설명들이 전반적으로 널리 알려졌지만, 이 다음 명세인 ECMA262 Edition5부터는 `Lexical Environment`와 `Environment Record`의 개념으로 스코프를 설명하고 있다.
 

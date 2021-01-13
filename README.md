@@ -162,8 +162,9 @@
   - Wrapper class
 - Javascript
   - [JS Event Loop](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/JavaScript%20Event%20Loop.md)
-  - Hoisting
-  - Closure
+  - [Hoisting](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Hoisting.md)
+  - [JS Scope](https://github.com/Songwonseok/CS-Study/main/Language/Javascript/Javascript%20Scope.md)
+  - [Closure](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Closure.md)
   - this 에 대해서
   - Promise
   - ECMAScript6
