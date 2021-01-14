@@ -2,9 +2,9 @@
 
 입력과 출력이 한 곳(방향)으로 제한
 
-```
+
 ![stack-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/DataStructure/images/stack-1.PNG)
-```
+
 
 ##### LIFO (Last In First Out, 후입선출) : 가장 나중에 들어온 것이 가장 먼저 나옴
 
