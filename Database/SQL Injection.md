@@ -9,6 +9,16 @@
 
 <br>
 
+### SQL Injection의 진행의 예
+
+- 각 클라이언트가 자격증 번호를 조회할 수 있는 시스템.
+- SQL 진행은 anjinma 클라이언트가 '자격증 번호 조회'를 클릭하여 anjinma 라는 이름이 웹서버에 전송되고 DB에 입력한 값과 일치하면 자격증 DB를 출력해준다.
+- blackhat 클라이언트는 anjinma 클라이언트의 자격증 번호를 조회하기 위해서 SQL문을 수정하지만 권한이 없어서 자격증 정보를 가져올 수 없다.
+- ex) http://license12345.com/mysearch?=anjinma url을 전송할때 anjinma가 로그인 되어있으면 정상적으로 자격증 번호를 조회할 수 있지만 blackhat이 로그인 되어있으면 자격증 번호를 조회할 수 없다.
+- 공격자인 blackhat은 url뒤에 ' or '1'='1'을 넣어줘서 항상 참이 되게 만들어서 자격증 번호를 조회해 온다.
+
+<br>
+
 ### SQL Injection 해킹 사례
 **사례1) '여기어때' 해킹**
 <br>
@@ -25,16 +35,6 @@
 <br>
 -> http://www.korea.kr/policy/pressReleaseView.do?newsId=156081058
 - 커뮤니티 사이트로 유명한 '뽐뿌'에서도 SQL 인젝션 공격으로 200만명 가량 개인정보가 유출된 사례가 있었다.
-<br>
-
-### SQL Injection의 진행의 예
-
-- 각 클라이언트가 자격증 번호를 조회할 수 있는 시스템.
-- SQL 진행은 anjinma 클라이언트가 '자격증 번호 조회'를 클릭하여 anjinma 라는 이름이 웹서버에 전송되고 DB에 입력한 값과 일치하면 자격증 DB를 출력해준다.
-- blackhat 클라이언트는 anjinma 클라이언트의 자격증 번호를 조회하기 위해서 SQL문을 수정하지만 권한이 없어서 자격증 정보를 가져올 수 없다.
-- ex) http://license12345.com/mysearch?=anjinma url을 전송할때 anjinma가 로그인 되어있으면 정상적으로 자격증 번호를 조회할 수 있지만 blackhat이 로그인 되어있으면 자격증 번호를 조회할 수 없다.
-- 공격자인 blackhat은 url뒤에 ' or '1'='1'을 넣어줘서 항상 참이 되게 만들어서 자격증 번호를 조회해 온다.
-
 <br>
 
 ### SQL Injection의 종류와 공격 방법
