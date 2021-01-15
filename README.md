@@ -100,7 +100,7 @@
 
 - [키(Key) 정리](https://github.com/Songwonseok/CS-Study/blob/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/%ED%82%A4(Key)%20%EC%A0%95%EB%A6%AC.md)
 - [SQL - JOIN](https://github.com/Songwonseok/CS-Study/blob/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/JOIN.md)
-- SQL Injection
+- [SQL Injection](https://github.com/Songwonseok/CS-Study/blob/main/Database/SQL%20Injection.md)
 - SQL vs NoSQL
 - 이상(Anomaly)
 - 인덱스(INDEX)

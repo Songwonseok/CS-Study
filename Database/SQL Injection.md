@@ -11,17 +11,22 @@
 
 ### SQL Injection 해킹 사례
 **사례1) '여기어때' 해킹**
+<br>
 ![Sqlinjection-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/Sqlinjection-2.png)
+<br>
 -> https://news.joins.com/article/21628794
 
 - 2017년 3월, 유명한 숙박앱인 '여기 어때'가 해킹을 당했다. 대량의 고객 정보와 고객의 투숙정보가 해커에게 유출되었으며 이 중 수천명에게 '모텔서 즐거우셨나요?'라는 식의 협박성의 민망한 문자가 전송되었다고 한다.
 - 기사에 따르면, 이 사건은 보안이 허술한 특정 웹 페이지를 대상으로 SQL 인젝션 공격을 시도해서 관리자 세션을 탈취하고 이 정보로 관리 페이지에 위장 로그인하여 고객의 개인정보를 유출했다고 한다.
 
 **사례2) '뽐뿌' 해킹**
+<br>
 ![Sqlinjection-3](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/Sqlinjection-3.png)
+<br>
 -> http://www.korea.kr/policy/pressReleaseView.do?newsId=156081058
 - 커뮤니티 사이트로 유명한 '뽐뿌'에서도 SQL 인젝션 공격으로 200만명 가량 개인정보가 유출된 사례가 있었다.
 <br>
+
 ### SQL Injection의 진행의 예
 
 - 각 클라이언트가 자격증 번호를 조회할 수 있는 시스템.
