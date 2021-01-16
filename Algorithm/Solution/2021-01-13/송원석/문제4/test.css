@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+}
+
+.carousel-container {
+    height: 40vh;
+    width: 50vw;
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indicators {
+    display: inline;
+}
+
+.indicators ul {
+    list-style: none inside;
+    display: inline-flex;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.indicators ul li {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.previous {
+    position: absolute;
+    display: inline-block;
+    left: 2%;
+    top: 50%;
+    height: 20px;
+    width: 20px;
+    background-image: url('../../assets/icons/left-icon.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    display: inline-block;
+    right: 2%;
+    top: 50%;
+    height: 19px;
+    width: 30px;
+    background-image: url('../../assets/icons/right_icon.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.slide-input {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+}
+
+.slide-status {
+    display: none;
+}

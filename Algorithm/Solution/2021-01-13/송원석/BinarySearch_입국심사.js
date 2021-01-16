@@ -22,3 +22,13 @@ function solution(n, times) {
   times.sort((a, b) => a - b);
   return binarySearch(times, n);
 }
+
+
+// 1. 돈 10원 옷 종류 4, 옷 가격 []
+// 
+// 2. longest string chain : A B BA BCA BDA BDCA
+// 문자열 체인 AB -> A, AB -> B
+// 3. html
+// 4. 캐러셀 (이미지 넘기기)
+// 5. 
+
