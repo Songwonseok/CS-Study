@@ -4,11 +4,7 @@ const merge = (array, left, mid, right) => {
   let leftIndex = 0;
   let rightIndex = 0;
   for (let i = left; i <= right; i++) {
-    if (leftIndex >= leftArray.length) {
-      array[i] = rightArray[rightIndex++];
-    } else if (rightIndex >= rightArray.length) {
-      array[i] = leftArray[leftIndex++];
-    } else if (leftArray[leftIndex] < rightArray[rightIndex]) {
+    if (rightIndex >= rightArray.length || leftArray[leftIndex] < rightArray[rightIndex]) {
       array[i] = leftArray[leftIndex++];
     } else {
       array[i] = rightArray[rightIndex++];
