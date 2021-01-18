@@ -42,7 +42,7 @@
 - [TDD(Test Driven Development)](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/TDD(Test%20Driven%20Development).md)
 - [객체 지향 프로그래밍](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 - [함수형 프로그래밍](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%ED%95%A8%EC%88%98%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
-- 데브옵스(DevOps)
+- [데브옵스(DevOps)](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md)
 - 서드 파티(3rd party)란?
 - Git 과 GitHub 에 대해서
 - 정규식
