@@ -62,9 +62,9 @@ Heap영역은 크게 2가지로 나뉩니다. (Permanent Generation 제외)
 
 - 진행 과정
 
-  - ![java-garbage-collection-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Language/images/java-garbage-collection-1.png)
+  - ![java-garbage-collection-1](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/java-garbage-collection-1.png?raw=true)
     - 일반적으로 객체를 생성하면, Young 영역에 먼저 위치하고 오랫동안 사용되는 객체는 GC과정을 통해 Old영역으로 이동한다.
-  - ![java-garbage-collection-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Language/images/java-garbage-collection-2.png)
+  - ![java-garbage-collection-2](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/java-garbage-collection-2.png?raw=true)
     - Allocation (배당하다) : 새로 생성된 객체가 유입됨
     - Promotion : 오래 사용되는 객체가 이동 (Young ㅡ> Old)
 

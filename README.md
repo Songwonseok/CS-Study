@@ -147,7 +147,7 @@
 - Java
   - [Java 컴파일 과정](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Java%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EA%B3%BC%EC%A0%95.md)
   - [자바 가상 머신(Java Virtual Machine)](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/JVM.md)
-  - Garbage Collection
+  - [Garbage Collection](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Garbage%20Collection.md)
   - Annotation
   - Call by Value vs Call by Reference
   - Primitive type & Reference type
