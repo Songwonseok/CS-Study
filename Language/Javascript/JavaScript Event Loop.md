@@ -161,6 +161,7 @@ setTimeout
 ## 참고 링크
 
 - [자바스크립트와 이벤트 루프](https://meetup.toast.com/posts/89) **(자세하게 설명되어 있으니 꼭 한번 읽어볼 것!)**
+- [논-블로킹(non-blocking) I/O, 비동기(Asynchronous) I/O 차이 이해하기](https://grip.news/archives/1304)
 - [자바스크립트의 호출 스택과 이벤트 루프](https://iamsjy17.github.io/javascript/2019/07/20/how-to-works-js.html)
 - [자바스크립트 비동기 처리 과정과 RxJS Scheduler](http://sculove.github.io/blog/2018/01/18/javascriptflow/)
 
