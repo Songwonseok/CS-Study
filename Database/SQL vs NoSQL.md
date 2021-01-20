@@ -26,7 +26,7 @@ SQL을 사용하면 관계형 데이터베이스 관리 시스템(RDBMS)에서 �
 
 - 구조(structure)는 필드의 이름과 데이터 유형으로 정의됩니다.
 
-![SQLvsNoSQL-1](https://t1.daumcdn.net/cfile/tistory/99BF063C5C937DF324)
+![SQLvsNoSQL-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/SQLvsNoSQL-1.jpg)
 
 (관계형 데이터베이스에서) 스키마를 준수하지 않는 레코드는 추가할 수 없습니다. 더 많은 필드를 얻고 싶다구요? 죄송합니다만 다른 테이블을 선택하셔야 합니다. 일부 필드가 누락 되었다구요? 아무튼 이 테이블은 안돼요! (예를 들어, 위 테이블에서 '유통 기한'이라는 필드를 넣고 싶다면, 스키마를 뜯어고치지 않는한 필드를 추가 할 수 없다는 겁니다.)
 
@@ -35,7 +35,7 @@ SQL을 사용하면 관계형 데이터베이스 관리 시스템(RDBMS)에서 �
 SQL 기반의 데이터 베이스의 또 다른 중요한 부분은 관계입니다.
 데이터들을 여러개의 테이블에 나누어서, 데이터들의 중복을 피할 수 있습니다. 만약 사용자가 구입한 상품들을 나타내기 위해서는, Users(사용자), Products(상품), Orders(주문한 상품) 여러 테이블을 만들어야 하지만, 각각의 테이블들은 다른 테이블에 저장되지 않은 데이터 만을 가지고 있습니다. (중복된 데이터가 없습니다.) 
 
-![SQLvsNoSQL-2](https://t1.daumcdn.net/cfile/tistory/994D09355C937ECD2D)
+![SQLvsNoSQL-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/SQLvsNoSQL-2.jpg)
 
 이런 명확한 구조는 장점이 있습니다. 하나의 테이블에서 중복없이 하나의 데이터만을 관리하기 때문에, 다른 테이블에서 부정확한 데이터를 다룰 위험이 없습니다.
 
@@ -48,7 +48,7 @@ NoSQL은 기본적으로 SQL(관계형 데이터베이스)와 반대되는 접�
 NoSQL세상에서는 레코드를 문서(documents)라고 부릅니다.
 이것은 단순히 이름만 다른 것이 아니라, 핵심적인 차이점 이있습니다. **SQL 세상에서는 정해진 스키마를 따르지 않는다면 데이터를 추가 할 수 없지만, NoSQL에서는 다른 구조의 데이터를 같은 컬렉션(= SQL에서의 테이블)에 추가할 수 있습니다.**
 
-![SQLvsNoSQL-3](https://t1.daumcdn.net/cfile/tistory/99FBC9415C937F2A20)
+![SQLvsNoSQL-3](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/SQLvsNoSQL-3.jpg)
 
 문서는 JSON 데이터와 비슷한 형태를 가지고 있습니다. 그리고 앞서 말씀드린대로, 스키마에 대해서는 신경 쓸 필요가 없습니다.
 또한 일반적으로 관련 데이터를 동일한 컬렉션에 넣습니다. (관계형 데이터베이스처럼 여러 테이블에 나누어 담지 않습니다.) 따라서 많은 Order(주문한 상품)이 있는 경우, 일반적인 정보를 모두 포함한 데이터를 Orders 컬렉션에 저장합니다. (즉, 관계형데이터 베이스에서 사용했던 Users나 Products 정보 또한 Orders에 포함해서 한꺼번에 저장됩니다.)
@@ -57,7 +57,7 @@ NoSQL세상에서는 레코드를 문서(documents)라고 부릅니다.
 (만약 조인을 하고 싶다면 직접 해당 외래키를 검색하여 사용할 수 있겠지만 일반적인 방법은 아닙니다.)
 대신 컬렉션을 통해 **데이터를 복제**하여 각 컬렉션 일부분에 속하는 데이터를 정확하게 산출하도록 합니다.
 
-![SQLvsNoSQL-4](https://t1.daumcdn.net/cfile/tistory/99C57D3B5C937F5E17)
+![SQLvsNoSQL-4](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/SQLvsNoSQL-4.jpg)
 
 이런 방식은 데이터가 중복되기 때문에 불안정한 측면이 있습니다. 실수로 컬렉션 B에서는 데이터를 수정하지 않았는데, 컬렉션 A에서만 데이터를 업데이트 할 위험이 있습니다.
 특정 데이터를 같이 사용하는 모든 컬렉션에서, 똑같은 데이터 업데이트를 수행되도록 해야 합니다.
@@ -73,7 +73,7 @@ NoSQL세상에서는 레코드를 문서(documents)라고 부릅니다.
 - **수직적 확장**이란 단순히 데이터베이스 서버의 성능을 향상시키는 것입니다. (예를 들어, CPU를 업그레이드 하는 방식으로 말이죠.)
 - 반면에 **수평적 확장**은 더 많은 서버가 추가되고 데이터베이스가 전체적으로 분산됨을 의미합니다. 따라서 하나의 데이터베이스에서 작동하지만 여러 호스트에서 작동합니다.
 
-![SQLvsNoSQL-5](https://t1.daumcdn.net/cfile/tistory/990D6E385C937F8530)
+![SQLvsNoSQL-5](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/SQLvsNoSQL-5.jpg)
 
 **데이터가 저장되는 방식 때문에 SQL 데이터베이스는 일반적으로 수직적 확장만을 지원합니다. 수평적 확장은 NoSQL 데이터베이스에서만 가능합니다.**
 SQL 데이터베이스는 '샤딩(Sharding)'의 개념을 알고 있지만 특정 제한이 있으며 구현하기가 대체로 어렵습니다. NoSQL 데이터베이스는 이를 기본적으로 지원하므로 여러 서버에서 데이터베이스를 쉽게 분리 할 수 있습니다.
@@ -155,9 +155,9 @@ A은행에서 B은행으로 돈을 보낸다고 할때, A은행에서 출금을 
 - Partitions Tolerance (분리 내구성)
 	: DB간 통신이 실패하는 경우라도 시스템은 정상 동작 한다.
 
-![SQLvsNoSQL-6](https://media.vlpt.us/images/rlcjf0014/post/67bcc769-69ec-42b7-92cd-c6764d89eff8/sql.png)
+![SQLvsNoSQL-6](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/SQLvsNoSQL-6.png)
 <br>
-![SQLvsNoSQL-7](https://media.vlpt.us/images/rlcjf0014/post/ab74d624-0a70-4029-9ea3-aa3589ecccf1/Screenshot%20from%202020-03-04%2019-46-03.png)
+![SQLvsNoSQL-7](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Database/images/SQLvsNoSQL-7.png)
 
 ### 참고
 - https://academind.com/tutorials/sql-vs-nosql/ - 원문 사이트
