@@ -83,7 +83,7 @@
 - [프로세스 vs 스레드](https://github.com/Songwonseok/CS-Study/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4vs%EC%8A%A4%EB%A0%88%EB%93%9C.md)
 - [프로세스 주소 공간](https://github.com/Songwonseok/CS-Study/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EC%A3%BC%EC%86%8C%EA%B3%B5%EA%B0%84.md)
 - [인터럽트(Interrupt)](https://github.com/Songwonseok/CS-Study/blob/main/OS/Interrupt.md)
-- 시스템 콜(System Call)
+- [시스템 콜(System Call)](https://github.com/Songwonseok/CS-Study/blob/main/OS/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C%20(System%20Call).md)
 - PCB와 Context Switching
 - IPC(Inter Process Communication)
 - CPU 스케줄링
@@ -99,8 +99,8 @@
 
 ## 📌 데이터베이스
 
-- [키(Key) 정리](https://github.com/Songwonseok/CS-Study/blob/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/%ED%82%A4(Key)%20%EC%A0%95%EB%A6%AC.md)
-- [SQL - JOIN](https://github.com/Songwonseok/CS-Study/blob/feature/database-key%EC%A0%95%EB%A6%AC-SQL-JOIN/Database/JOIN.md)
+- [키(Key) 정리](https://github.com/Songwonseok/CS-Study/blob/main/Database/%ED%82%A4(Key)%20%EC%A0%95%EB%A6%AC.md)
+- [SQL - JOIN](https://github.com/Songwonseok/CS-Study/blob/main/Database/JOIN.md)
 - [SQL Injection](https://github.com/Songwonseok/CS-Study/blob/main/Database/SQL%20Injection.md)
 - [SQL vs NoSQL](https://github.com/Songwonseok/CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)
 - 이상(Anomaly)

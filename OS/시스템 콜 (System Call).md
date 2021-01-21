@@ -20,7 +20,7 @@
   > 커널 모드 ㅡ> 사용자 모드 는 시스템콜 요청을 다 끝마치고 시스템 콜 리턴값으로 전해준다.
 
 - 윈도우 커널 (응용프로그램 : 사용자 모드 / 나머지 : 커널 모드)
-- ![system-call-3](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\OS\images\system-call-3.png)
+- ![system-call-3](https://github.com/Songwonseok/CS-Study/blob/main/OS/images/system-call-3.png?raw=true)
 - HAL (Hardware Abstraction Layer) : 하드웨어와 소프트웨어 간의 원활한 통신을 위한 역할
 - 고급 언어 (C++, Java)로 작성된 프로그램들은 직접 시스템 호출을 사용할 수 없기 때문에 고급 API를 통해 시스템 호출에 접근하게 하는 방법이다.
 
@@ -28,7 +28,7 @@
 
 ### 시스템 콜은 왜 필요할까?
 
-- ![system-call-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\OS\images\system-call-1.png)
+- ![system-call-1](https://github.com/Songwonseok/CS-Study/blob/main/OS/images/system-call-1.png?raw=true)
 - 우리가 일반적으로 사용하는 프로그램은 **응용 프로그램** 이다. 유저레벨의 프로그램은 유저레벨의 함수들만으로는 많은 기능을 구현하기 힘들기 때문에, 무조건 커널의 도움을 받아야만 한다.
 - 반드시 커널에 관련한 것들은 커널모드로 전환하여 해당 작업을 수행해야한다.
 - 이러한 커널 모드로 통한 작업을 할때의 전환을 **시스템 콜**이라고 한다.
@@ -42,7 +42,7 @@
      - 리눅스와 솔라리스에서 사용된다.
   3. 매개 변수는 프로그램에 의해 **스택으로 전달** 되거나 push된 매개 변수가 운영체제에 의해서 pop된다.
 - 보통 시스템 콜의 번호와 반환값은 레지스터를 사용하는 경우가 많다.
-- ![system-call-2](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\OS\images\system-call-2.png)
+- ![system-call-2](https://github.com/Songwonseok/CS-Study/blob/main/OS/images/system-call-2.png?raw=true)
 - ps) 자바에서는 시스템 콜을 직접 사용할 수 없어서 예제가 딱히 없음다 ㅠㅠ
 
 
