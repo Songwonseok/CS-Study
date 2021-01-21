@@ -167,7 +167,7 @@
   - [Hoisting](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Hoisting.md)
   - [JS Scope](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Javascript%20Scope.md)
   - [Closure](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Closure.md)
-  - this 에 대해서
+  - [this](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/this.md)
   - Promise
   - ECMAScript6
 
