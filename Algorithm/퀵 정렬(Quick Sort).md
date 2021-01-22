@@ -1,20 +1,10 @@
 ## 퀵 정렬 (Quick Sort)
 
-## Goal
+퀵정렬은 real-world 데이터에서 빠르다고 알려져 있어 가장 많이 쓰는 정렬알고리즘이다.
 
-- Quick Sort에 대해 설명할 수 있다.
-- Quick Sort 과정에 대해 설명할 수 있다.
-- Quick Sort을 구현할 수 있다.
-- Quick Sort의 시간복잡도와 공간복잡도를 계산할 수 있다.
+퀵정렬은 pivot을 선정하여 pivot을 기준으로 좌측과 우측으로 pivot보다 작은값은 왼쪽 pivot보다 큰값은 오른쪽으로 재배치를 하고 계속하여 분할하여 정렬하는 알고리즘이다.
 
-
-
-## Abstract
-
-- 퀵정렬은 real-world 데이터에서 빠르다고 알려져 있어 가장 많이 쓰는 정렬알고리즘이다.
-
-- 퀵정렬은 pivot을 선정하여 pivot을 기준으로 좌측과 우측으로 pivot보다 작은값은 왼쪽 pivot보다 큰값은 오른쪽으로 재배치를 하고 계속하여 분할하여 정렬하는 알고리즘이다.
-- 최악의 경우에는 O(n²)의 비교를 수행하지만 일반적으로 O(nlogn)의 시간복잡도를 가진다.
+최악의 경우에는 O(n²)의 비교를 수행하지만 일반적으로 O(nlogn)의 시간복잡도를 가진다.
 
 > 안전 정렬 : 동일한 값에 기존 순서가 유지 (버블, 삽입)
 >
@@ -22,7 +12,7 @@
 
 
 
-## Process (Ascending)
+## 정렬방식 (오름차순)
 
 - 배열에 5, 3, 8, 4, 9, 1, 6, 2, 7이 저장되어 있다고 가정하고 자료를 오름차순으로 정렬해 보자.
 
@@ -47,7 +37,7 @@
 
 
 
-## Java Code (Ascending)
+## Java 소스코드 (오름차순)
 
 ```java
 public static int partition(int[] array, int left, int right) {
@@ -181,7 +171,7 @@ public static void quicksort(int[] array, int left, int right) {
 
 
 
-## Reference & Additional Resources
+## 참고자료
 
 - https://ko.wikipedia.org/wiki/%ED%80%B5_%EC%A0%95%EB%A0%AC
 - https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
