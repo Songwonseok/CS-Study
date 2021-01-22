@@ -51,7 +51,7 @@ Process Metadata에는 다음과 같은 정보들이 있습니다.
 
 프로세스 메타데이터들을 저장해 놓는 곳입니다. 하나의 PCB 안에는 하나의 프로세스의 정보가 담겨있습니다.
 
-![PCBContextSwitching-1](https://mblogthumb-phinf.pstatic.net/MjAyMDA3MDNfMzYg/MDAxNTkzNzQ2NDQwNTYw.f62otrPY3iNE4edLaxgkM1F3YRBJAVAzJkc0z1FJR8Eg.tr73Ug8AtaJViK2yoGYAlOrZcDQBxYWyYQRwtbsLTJgg.PNG.adamdoha/image.png?type=w800)
+![PCBContextSwitching-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/OS/images/PCBContextSwitching-1.png)
 
 
 **프로그램 실행 -> 프로세스 생성 -> 프로세스 주소 공간에 (코드, 데이터, 스택) 생성 -> 이 프로세스의 메타데이터들이 PCB에 저장**
@@ -60,7 +60,7 @@ Process Metadata에는 다음과 같은 정보들이 있습니다.
 
 > **PCB(Process Control Block) 상세 구조**
 
-![img](https://mblogthumb-phinf.pstatic.net/MjAyMDA3MDNfMTg0/MDAxNTkzNzQ1MjQ2Njgz.nmhyRLo_ygWgF9piW8BUwmCgcgq-W2HIeAW0Wxc1Kqcg.MS4ZFBQU7TGOFC1JtXVLkANPgrIyKgdb1tcp2laV6zQg.PNG.adamdoha/image.png?type=w800)
+![PCBContextSwitching-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/OS/images/PCBContextSwitching-2.png)
 
   
 
