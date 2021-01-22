@@ -16,7 +16,7 @@
 
 - 완전 이진 트리의 일종으로 우선순위 큐를 위하여 만들어진 자료구조
 - 최댓값, 최솟값을 쉽게 추출할 수 있는 자료구조
-  ![heapsort-1](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\heapsort-1.PNG)
+  ![heapsort-1](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/heapsort-1.PNG?raw=true)
 
 
 
@@ -36,7 +36,7 @@
   2. 새로운 노드를 부모 노드들과 교환해서 힙의 성질을 만족시킨다.
   3. 아래의 최대 힙(max heap)에 새로운 요소 8을 삽입해보자.
 
-  ![heapsort-2](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\heapsort-2.PNG)
+  ![heapsort-2](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/heapsort-2.PNG?raw=true)
 
 
 
@@ -47,7 +47,7 @@
   3. 삭제된 루트 노드에는 힙의 마지막 노드를 가져온다.
   4. 힙을 재구성한다.
 
-  ![heapsort-3](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\heapsort-3.PNG)
+  ![heapsort-3](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/heapsort-3.PNG?raw=true)
 
 
 
@@ -109,7 +109,7 @@ public static void swap(int[] array, int a, int b) {
 
 ## GIF로 이해하는 Heap Sort
 
-![heapsort](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\heapsort.GIF)
+![heapsort](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/heapsort.GIF?raw=true)
 
 
 

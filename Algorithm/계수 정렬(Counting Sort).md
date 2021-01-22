@@ -56,7 +56,7 @@ for (int i = arr.length - 1; i >= 0; i--) {
 
 ## GIF로 이해하는 Counting Sort
 
-![countingsort](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\countingsort.GIF)
+![countingsort](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/countingsort.GIF?raw=true)
 
 ## 시간복잡도
 

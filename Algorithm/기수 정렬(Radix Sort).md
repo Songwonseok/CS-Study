@@ -80,7 +80,7 @@ int main() {
 
 ## GIF로 이해하는 Radix Sort
 
-![radixsort](C:\Users\dnjst\OneDrive\바탕 화면\STUDY\CS\CS-Study\Algorithm\image\radixsort.GIF)
+![radixsort](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/image/radixsort.GIF?raw=true)
 
 ## 시간복잡도
 
