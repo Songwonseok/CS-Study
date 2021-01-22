@@ -1,23 +1,12 @@
 ## 선택 정렬 (Selection Sort)
 
-## Goal
-
-- Selection Sort에 대해 설명할 수 있다.
-- Selection Sort 과정에 대해 설명할 수 있다.
-- Selection Sort을 구현할 수 있다.
-- Selection Sort의 시간복잡도와 공간복잡도를 계산할 수 있다.
-
-
-
-## Abstract
-
 Selection Sort는 Bubble Sort과 유사한 알고리즘으로, **해당 순서에 원소를 넣을 위치는 이미 정해져 있고, 어떤 원소를 넣을지 선택하는 알고리즘**입니다.
 
 Selection Sort와 Insertion Sort를 헷갈려하시는 분들이 종종 있는데, Selection Sort는 배열에서 **해당 자리를 선택하고 그 자리에 오는 값을 찾는 것**이라고 생각하시면 편합니다.
 
 
 
-## Process (Ascending)
+## 정렬방식 (오름차순)
 
 1. 주어진 배열 중에 최소값을 찾습니다.
 2. 그 값을 맨 앞에 위치한 값과 교체합니다. (pass)
@@ -25,7 +14,7 @@ Selection Sort와 Insertion Sort를 헷갈려하시는 분들이 종종 있는�
 
 
 
-## Java Code (Ascending)
+## Java 소스코드 (오름차순)
 
 ```
 void selectionSort(int[] arr) {
@@ -96,13 +85,13 @@ void selectionSort(int[] arr) {
 
 
 
-## Conclusion
+## 결론
 
 Bubble Sort와 유사하지만, 조금 더 빠른 Selection Sort에 대해 알아보았습니다. 기술 면접이나 시험(n번째 회전에 정렬 상태)에서도 종종 나오는 정렬이니 알아두시면 좋을 것 같습니다.
 
 
 
-## Reference & Additional Resources
+## 참고자료
 
 - https://jinhyy.tistory.com/9
 - [https://medium.com/@joongwon/%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%B4%88-805391cb088e](https://medium.com/@joongwon/정렬-알고리즘-기초-805391cb088e)

@@ -1,17 +1,5 @@
 # 삽입 정렬 (Insertion Sort)
 
-## Goal
-
-- Insertion Sort에 대해 설명할 수 있다.
-- Insertion Sort 과정에 대해 설명할 수 있다.
-- Insertion Sort을 구현할 수 있다.
-- Insertion Sort의 시간복잡도와 공간복잡도를 계산할 수 있다.
-- Insertion Sort와 Selection Sort 차이에 대해 설명할 수 있다.
-
-
-
-## Abstract
-
 손 안의 카드를 정렬하는 방법과 유사합니다.
 
 Insertion Sort는 Selection Sort와 유사하지만, 좀 더 효율적인 정렬 알고리즘입니다.
@@ -22,7 +10,7 @@ Insertion Sort는 **2번째 원소부터 시작하여 그 앞(왼쪽)의 원소�
 
 
 
-## Process (Ascending)
+## 정렬방식 (오름차순)
 
 1. 정렬은 2번째 위치(index)의 값을 temp에 저장합니다.
 2. temp와 이전에 있는 원소들과 비교하며 삽입해나갑니다.
@@ -30,7 +18,7 @@ Insertion Sort는 **2번째 원소부터 시작하여 그 앞(왼쪽)의 원소�
 
 
 
-## Java Code (Ascending)
+## Java 소스코드 (오름차순)
 
 ```
 void insertionSort(int[] arr)
@@ -93,13 +81,13 @@ void insertionSort(int[] arr)
 
 
 
-## Conclusion
+## 결론
 
 Selection Sort와 Insertion Sort는 k번째 반복 이후, 첫번째 k 요소가 정렬된 순서로 온다는 점에서 유사합니다. 하지만, Selection Sort는 k+1번째 요소를 찾기 위해 나머지 모든 요소들을 탐색하지만 Insertion Sort는 k+1번째 요소를 배치하는 데 필요한 만큼의 요소만 탐색하기 때문에 훨씬 효율적으로 실행된다는 차이가 있습니다.
 
 
 
-## Reference & Additional Resources
+## 참고자료
 
 - https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html
 - [https://ko.wikipedia.org/wiki/%EC%82%BD%EC%9E%85_%EC%A0%95%EB%A0%AC](https://ko.wikipedia.org/wiki/삽입_정렬)
