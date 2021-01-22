@@ -27,10 +27,9 @@ class Main_bj_12865_평범한배낭_hint {
     		st = new StringTokenizer(br.readLine());
     		W[i]=Integer.parseInt(st.nextToken());
     		V[i]=Integer.parseInt(st.nextToken());
-    		dp[i]=V[i];
     	}
     	
-    	for(int i=1;i<N;i++) {
+    	for(int i=0;i<N;i++) {
     		for(int j=K;j>=W[i];j--) {
     			int curr = V[i]+dp[j-W[i]];
     			if(dp[j]>curr) {
