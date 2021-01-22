@@ -84,7 +84,7 @@
 - [프로세스 주소 공간](https://github.com/Songwonseok/CS-Study/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EC%A3%BC%EC%86%8C%EA%B3%B5%EA%B0%84.md)
 - [인터럽트(Interrupt)](https://github.com/Songwonseok/CS-Study/blob/main/OS/Interrupt.md)
 - [시스템 콜(System Call)](https://github.com/Songwonseok/CS-Study/blob/main/OS/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C%20(System%20Call).md)
-- PCB와 Context Switching
+- [PCB와 Context Switching](https://github.com/Songwonseok/CS-Study/blob/main/OS/PCB%20Context%20Switching.md)
 - IPC(Inter Process Communication)
 - CPU 스케줄링
 - 데드락(DeadLock)
