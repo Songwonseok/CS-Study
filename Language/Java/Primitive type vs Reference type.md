@@ -162,7 +162,7 @@
 - Boxing : Primitive 자료형을 Wrapper 클래스로 변화시킬 때
 - UnBoxing : Wrapper 클래스를 Primitive 자료형으로 변화시킬 때
 
--  ![java-Primitive Type vs Reference Type-1.jfif](..\images\java-Primitive Type vs Reference Type-1.jfif) 
+-  ![java-Primitive Type vs Reference Type-1.jfif](..\images\java-Primitive Type vs Reference Type-1.png) 
 
 
 

@@ -44,7 +44,7 @@
 
 - swap() 메서드를 통해 a,b의 값이 바뀌어야 하지 않을까? 라는 생각을 할 수 있다
 - 하지만 main문 안에 swap 메서드 호출 할때의 매개변수 a, b와 swap메서드 내에서 사용하는 매개 변수 x, y는 서로 다르기 때문에 출력상에서 바뀌지 않는다.
-- ![java-callbyvalue-callbyreference-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Language\images\java-callbyvalue-callbyreference-1.png)
+- ![java-callbyvalue-callbyreference-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Language/images/java-callbyvalue-callbyreference-2.png)
 - swap 메서드를 통해 변경된 값을 출력하고 싶다면 swap메서드 내부에서 x,y를 출력해주어야 한다.
 - 각 변수마다 저장된 메모리 주소값이 다르기 때문에 swap 메서드를 통해서 바꾼다 한 들 main문의 출력값은 변화가 없다.
 
@@ -87,7 +87,7 @@
 
 - Call by value와는 다르게 swap 메서드를 통해 값이 바뀐 것을 발견할 수 있다.
 
-- ![java-callbyvalue-callbyreference-2](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Language\images\java-callbyvalue-callbyreference-2.png)
+- ![java-callbyvalue-callbyreference-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Language/images/java-callbyvalue-callbyreference-1.png)
 
 - main문에서 선언된 CallByReference 타입의 변수 a, b는 각각 객체를 생성해서 각자의 주소로 10과 20을 저장한다.
 
