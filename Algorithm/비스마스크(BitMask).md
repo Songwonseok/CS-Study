@@ -32,9 +32,9 @@
 
 ### 비트연산자
 
-- ![bitmask-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Algorithm\image\bitmask-1.png)
+- ![bitmask-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Algorithm/image/bitmask-1.png)
 
-- ![bitmask-2](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Algorithm\image\bitmask-2.png)
+- ![bitmask-2](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Algorithm/image/bitmask-2.png)
 
 - 시프트 연산 (<< . >>) : 왼쪽 또는 오른쪽으로 비트를 옮긴다.
 
