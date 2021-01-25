@@ -152,8 +152,8 @@
   - [Annotation](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Annotation.md)
   - [Call by Value vs Call by Reference](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Call%20by%20%20Value%20VS%20Call%20by%20Reference.md)
   - [Primitive type vs Reference type](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Primitive%20type%20vs%20Reference%20type.md)
-  - String & StringBuffer & StringBuilder
-  - Overriding vs Overloading
+  - [String & StringBuffer & StringBuilder](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/String%20StringBuffer%20StringBuilder.md)
+  - [Overriding vs Overloading](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Overriding%20vs%20Overloading.md)
   - Thread 활용
   - Casting(업캐스팅 & 다운캐스팅)
   - Promotion & Casting
