@@ -6,7 +6,7 @@ Java 에서 문자열을 다루를 대표적인 클래스로 **String ,** **Stri
 
 **|** **String vs** **StringBuffer/StringBuilder**
 
-String과 StringBuffer/StringBuilder 클래스의 가장 큰 차이점은 **String**은 **불변(immutable)**의 속성을 갖는다는 점입니다.
+String과 StringBuffer/StringBuilder 클래스의 가장 큰 차이점은 **String**은  **불변(immutable)**의 속성을 갖는다는 점입니다.
 
 ```
 String str = "hello";   // String str = new String("hello");
@@ -36,7 +36,7 @@ sb.append(" world");
 
 그렇다면 동일한 API를 가지고 있는 **StringBuffer,StringBuilder의 차이점**은 무엇일까요?
 
-가장 큰 차이점은 **동기화의 유무**로써 **StringBuffer**는 동기화 키워드를 지원하여 **멀티쓰레드 환경에서 안전하다는 점(thread-safe)** 입니다. 참고로 **String**도 불변성을 가지기때문에 마찬가지로  **멀티쓰레드 환경에서의 안정성(thread-safe)**을 가지고 있습니다. 
+가장 큰 차이점은 **동기화의 유무**로써 **StringBuffer**는 동기화 키워드를 지원하여 **멀티쓰레드 환경에서 안전하다는 점(thread-safe)** 입니다. 참고로 **String**도 불변성을 가지기때문에 마찬가지로   **멀티쓰레드 환경에서의 안정성(thread-safe)**을 가지고 있습니다. 
 
 반대로 **StringBuilder**는 **동기화를 지원하지 않기**때문에 멀티쓰레드 환경에서 사용하는 것은 적합하지 않지만 동기화를 고려하지 않는 만큼 **단일쓰레드에서의 성능은 StringBuffer 보다 뛰어납니다**.
 
@@ -57,4 +57,5 @@ sb.append(" world");
 
 ### 참고
 https://ifuwanna.tistory.com/221
+
 https://jeong-pro.tistory.com/85
