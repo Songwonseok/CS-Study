@@ -185,7 +185,7 @@
 - [Reflow&Repaint](https://github.com/Songwonseok/CS-Study/blob/main/Web/Reflow%26Repaint.md)
 - [CORS](https://github.com/Songwonseok/CS-Study/blob/main/Web/CORS.md)
 - [크로스 브라우징](https://github.com/Songwonseok/CS-Study/blob/main/Web/%ED%81%AC%EB%A1%9C%EC%8A%A4%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95.md)
-- 웹 성능과 관련된 Issues
+- [웹 성능 최적화](https://github.com/Songwonseok/CS-Study/blob/main/Web/%EC%9B%B9%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
 - 서버 사이드 렌더링 vs 클라이언트 사이드 렌더링
 - CSS Methodology
 - Normalize.css vs Reset.css
