@@ -1,16 +1,25 @@
-function solution(arrA, arrB) {
-  const startIndex = arrB.findIndex(el => el === arrA[0]);
-
-  if (startIndex === -1)
-    return false;
-
-  const length = arrA.length;
-
-  for (let i = 0; i < length; i++) {
-    if (arrA[i] !== arrB[(startIndex + i) % length]) {
+function equals(arrA, arrB) {
+  for (let i = 0; i < arrA.length; i++) {
+    if (arrA[i] !== arrB[i]) {
       return false;
     }
   }
-
   return true;
+}
+
+function solution(arrA, arrB) {
+  if (arrA.length !== arrB.length) {
+    return false;
+  }
+
+  if (equals(arrA, arrB))
+    return true;
+
+  for (let i = 0; i < arrA.length - 1; i++) {
+    arrB.push(arrB.shift());
+    if (equals(arrA, arrB)) {
+      return true;
+    }
+  }
+  return false;
 }
