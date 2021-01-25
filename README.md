@@ -150,8 +150,8 @@
   - [자바 가상 머신(Java Virtual Machine)](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/JVM.md)
   - [Garbage Collection](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Garbage%20Collection.md)
   - [Annotation](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Annotation.md)
-  - Call by Value vs Call by Reference
-  - Primitive type & Reference type
+  - [Call by Value vs Call by Reference](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Call%20by%20%20Value%20VS%20Call%20by%20Reference.md)
+  - [Primitive type vs Reference type](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Primitive%20type%20vs%20Reference%20type.md)
   - String & StringBuffer & StringBuilder
   - Overriding vs Overloading
   - Thread 활용
