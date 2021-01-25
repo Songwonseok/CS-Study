@@ -17,7 +17,7 @@ str = str + " world";  // [ hello world ]
 
 하지만 기존에 "hello" 값이 들어가있던 String 클래스의 참조변수 str이 "hello world"라는 값을 가지고 있는 **새로운 메모리영역을 가리키게 변경**되고 **처음 선언했던 "hello"로 값이 할당되어 있던 메모리 영역은 Garbage로 남아있다가 GC(garbage collection)에 의해 사라지게 되는 것** 입니다. String 클래스는 불변하기 때문에 문자열을 수정하는 시점에 새로운 **String 인스턴스가 생성된 것**이지요.
 
-![img](https://t1.daumcdn.net/cfile/tistory/99948B355E2F13350F)
+![String-1](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/String-1.png)
 
 위와 같이 String은 불변성을 가지기 때문에 **변하지 않는 문자열을 자주 읽어들이는 경우 String을 사용**해 주시면 좋은 성능을 기대할 수 있습니다. 그러나 **문자열 추가,수정,삭제 등의 연산이 빈번하게 발생**하는 알고리즘에 String 클래스를 사용하면 **힙 메모리(Heap)에 많은 임시 가비지(Garbage)가 생성**되어 힙메모리가 부족으로 어플리케이션 성능에 치명적인 영향을 끼치게 됩니다.
 
@@ -30,7 +30,7 @@ StringBuffer sb= new StringBuffer("hello");
 sb.append(" world");
 ```
 
-![img](https://t1.daumcdn.net/cfile/tistory/9923A9505E2F133608)
+![String-2](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/String-2.png)
 
 **|** **StringBuffer** **vs** **StringBuilder**
 
@@ -50,7 +50,7 @@ sb.append(" world");
 
 **StringBuilder**  : 문자열 연산이 많고 단일쓰레드이거나 동기화를 고려하지 않아도 되는 경우 
 
-![img](https://t1.daumcdn.net/cfile/tistory/99BE23375E2F133722)
+![String-3](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/String-3.png)
 
 
 

@@ -59,7 +59,7 @@ public class test {
 
 
 
-![img](https://t1.daumcdn.net/cfile/tistory/2778454952A3F6B127)
+![OverridingvsOverroading-1](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/OverridingvsOverroading-1.jpg)
 
 
 
@@ -122,7 +122,7 @@ public class test {
 
 
 
-![img](https://t1.daumcdn.net/cfile/tistory/26320A4952A4049B22)
+![OverridingvsOverroading-2](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/OverridingvsOverroading-2.jpg)
 
 
 
@@ -148,6 +148,3 @@ main 함수에서 Manager 객체를 생성 후, print() 메소드를 호출하�
 
 https://hyeonstorage.tistory.com/185
 
-```
-
-```
