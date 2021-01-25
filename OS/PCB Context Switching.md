@@ -66,7 +66,7 @@ Process Metadata에는 다음과 같은 정보들이 있습니다.
 
   * Process State : 프로세스 상태(Create, Ready, Running, Block, terminated)
 
-  * Process Counter : 다음 실행할 명령어의 주솟값
+  * Program Counter : 다음 실행할 명령어의 주솟값
 
   * CPU Registers : accumulator, index register, stack pointers, general purpose registers.
 
