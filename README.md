@@ -133,13 +133,13 @@
 - [힙 정렬(Heap Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md)
 - [기수 정렬(Radix Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EA%B8%B0%EC%88%98%20%EC%A0%95%EB%A0%AC(Radix%20Sort).md)
 - [계수 정렬(Count Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Counting%20Sort).md)
+- [비트마스크(BitMask)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EB%B9%84%EC%8A%A4%EB%A7%88%EC%8A%A4%ED%81%AC(BitMask).md)
 - 이분 탐색(Binary Search)
 - 해시 테이블 구현
 - DFS & BFS
 - 최장 증가 수열(LIS)
 - 최소 공통 조상(LCA)
 - 동적 계획법(Dynamic Programming)
-- 비트마스크(BitMask)
 
 
 
