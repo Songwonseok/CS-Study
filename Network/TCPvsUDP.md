@@ -2,7 +2,7 @@
 
 ### TCP / UDP
 
-![TCPUDP-1](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/images/TCPUDP-1.png)
+![TCPUDP-1](https://github.com/Songwonseok/CS-Study/blob/main/Network/images/TCPUDP-1.png)
 
 데이터를 중요하게 생각하여 확실히 주고받고 싶을 때는 ‘TCP(Transmission Control Protocol)’를 사용합니다. TCP는 통신할 컴퓨터끼리 ‘보냈습니다’, ‘도착했습니다’라고 서로 확인 메시지를 보내면서 데이터를 주고받음으로써 통신의 신뢰성을 높입니다. 웹이나 메일, 파일 공유 등과 같이 데이터를 누락시키고 싶지 않은 서비스는 TCP를 사용하고 있습니다.
 
@@ -14,7 +14,7 @@
 
 
 
-![TCPUDP-2](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/images/TCPUDP-2.png)
+![TCPUDP-2](https://github.com/Songwonseok/CS-Study/blob/main/Network/images/TCPUDP-2.png)
 
 
 
@@ -70,7 +70,7 @@ Q) TCP는 패킷을 어떻게 추적 및 관리하나요?
 
 
 
-![TCPUDP-3](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/images/TCPUDP-3.png)
+![TCPUDP-3](https://github.com/Songwonseok/CS-Study/blob/main/Network/images/TCPUDP-3.png)
 
 
 
@@ -92,7 +92,7 @@ Q) TCP는 패킷을 어떻게 추적 및 관리하나요?
 
 
 
-!![TCPUDP-4](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/images/TCPUDP-4.png)
+!![TCPUDP-4](https://github.com/Songwonseok/CS-Study/blob/feature/main/Network/images/TCPUDP-4.png)
 
 
 
