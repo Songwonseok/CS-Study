@@ -1,18 +1,10 @@
 # TCP / UDP
 
-### TCP
+### TCP / UDP
 
-![TCP](https://madplay.github.io/img/post/2018-02-04-network-tcp-udp-tcpip-2.png)
+![TCPUDP-1](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/images/TCPUDP-1.png)
 
 데이터를 중요하게 생각하여 확실히 주고받고 싶을 때는 ‘TCP(Transmission Control Protocol)’를 사용합니다. TCP는 통신할 컴퓨터끼리 ‘보냈습니다’, ‘도착했습니다’라고 서로 확인 메시지를 보내면서 데이터를 주고받음으로써 통신의 신뢰성을 높입니다. 웹이나 메일, 파일 공유 등과 같이 데이터를 누락시키고 싶지 않은 서비스는 TCP를 사용하고 있습니다.
-
-
-
-### UDP
-
-![UDP](https://madplay.github.io/img/post/2018-02-04-network-tcp-udp-tcpip-3.png)
-
-
 
 그에 반해 데이터의 신뢰성은 제쳐두고 어쨌든 빨리 보내고 싶을 때는 ‘UDP(User Datagram Protocol)’를 사용합니다. UDP는 데이터를 보내면 그것으로 끝이므로 신뢰성은 없지만 확인 응답과 같은 절차를 생략할 수 있으므로 통신의 신속성을 높입니다. VoIP(Voice over IP)나 시간 동기, 이름 해결 등과 같이 무엇보다 속도를 필요로 하는 서비스는 UDP를 사용하고 있습니다. 
 
@@ -22,7 +14,7 @@
 
 
 
-![img](https://t1.daumcdn.net/cfile/tistory/991BEB3359FEB5712F)
+![TCPUDP-2](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/images/TCPUDP-2.png)
 
 
 
@@ -78,7 +70,7 @@ Q) TCP는 패킷을 어떻게 추적 및 관리하나요?
 
 
 
-![img](https://blog.kakaocdn.net/dn/cIt86U/btqNiVx6GmY/nPEo5ZZsFq71gFGqAxtvxK/img.png)
+![TCPUDP-3](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/images/TCPUDP-3.png)
 
 
 
@@ -100,7 +92,7 @@ Q) TCP는 패킷을 어떻게 추적 및 관리하나요?
 
 
 
-!![img](https://t1.daumcdn.net/cfile/tistory/9969973359FEB59309)
+!![TCPUDP-4](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/images/TCPUDP-4.png)
 
 
 
