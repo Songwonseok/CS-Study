@@ -24,7 +24,7 @@
 | 10:00 ~ 10:30 | 알고리즘 과제 및 CS 주제 선정 |
 | 10:30 ~ 17:00 |           과제 해결           |
 | 17:00 ~ 18:00 |       CS 학습내용 공유        |
-| 20:00 ~ 21:00 |       알고리즘 코드리뷰       |
+| 21:00 ~ 22:00 |       알고리즘 코드리뷰       |
 
 ## 📚 알고리즘 Study
 
@@ -33,7 +33,7 @@
 
 
 # 학습 주제
-학습주제는 [여기](https://github.com/gyoogle/tech-interview-for-developer)를 참고했습니다.
+학습주제는 [gyoogle](https://github.com/gyoogle/tech-interview-for-developer)을 참고했습니다.
 
 ## 📌 개발상식
 
@@ -104,6 +104,7 @@
 - [SQL Injection](https://github.com/Songwonseok/CS-Study/blob/main/Database/SQL%20Injection.md)
 - [SQL vs NoSQL](https://github.com/Songwonseok/CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)
 - [이상(Anomaly)](https://github.com/Songwonseok/CS-Study/blob/main/Database/Anomaly.md)
+- 정규화
 - 인덱스(INDEX)
 - 트랜잭션(Transaction)
 - 트랜잭션 격리 수준(Transaction Isolation Level)
@@ -135,7 +136,7 @@
 - [계수 정렬(Count Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Counting%20Sort).md)
 - [비트마스크(BitMask)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EB%B9%84%EC%8A%A4%EB%A7%88%EC%8A%A4%ED%81%AC(BitMask).md)
 - 이분 탐색(Binary Search)
-- 해시 테이블 구현
+- 세그먼트 트리
 - DFS & BFS
 - 최장 증가 수열(LIS)
 - 최소 공통 조상(LCA)
