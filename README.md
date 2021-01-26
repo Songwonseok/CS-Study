@@ -44,8 +44,8 @@
 - [함수형 프로그래밍Ⅰ](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%ED%95%A8%EC%88%98%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%E2%85%A0.md)
 - [함수형 프로그래밍Ⅱ](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%ED%95%A8%EC%88%98%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%E2%85%A1.md)
 - [데브옵스(DevOps)](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md)
-- 서드 파티(3rd party)란?
-- Git 과 GitHub 에 대해서
+- [서드 파티(3rd party)란?](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EC%8D%A8%EB%93%9C%20%ED%8C%8C%ED%8B%B0%20(Third%20Party).md)
+- [Git 과 GitHub 에 대해서](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/Git.md)
 - 정규식
 - Generic
 - final

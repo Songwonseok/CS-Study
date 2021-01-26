@@ -101,4 +101,4 @@
   | 장점 | Git은 remote 저장소를 지원하며, Github이 remote 저장소이다. | 5명까지 무료로 공동 작업이 가능하다 (private 포함) |
   | 단점 |                       private는 유료                        |                5명이 넘어가면 유료                 |
 
-- ![git-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\CommonSense\images\git-1.png)
+- ![git-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/CommonSense/images/git-1.png)
