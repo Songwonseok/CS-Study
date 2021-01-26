@@ -92,7 +92,7 @@ Q) TCP는 패킷을 어떻게 추적 및 관리하나요?
 
 
 
-!![TCPUDP-4](https://github.com/Songwonseok/CS-Study/blob/feature/main/Network/images/TCPUDP-4.png)
+!![TCPUDP-4](https://github.com/Songwonseok/CS-Study/blob/main/Network/images/TCPUDP-4.png)
 
 
 
