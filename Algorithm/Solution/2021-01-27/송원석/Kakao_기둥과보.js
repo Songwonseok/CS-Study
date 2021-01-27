@@ -1,22 +1,22 @@
 function validColumns(floor, x, y) {
-  if (y === 0) {
+  if (y === 0) { // 바닥인 경우
     return true;
-  } else if (floor[0][x][y - 1]) {
+  } else if (floor[0][x][y - 1]) { // 밑에 기둥이 있는 경우
     return true
-  } else if (x > 0 && floor[1][x - 1][y]) {
+  } else if (x > 0 && floor[1][x - 1][y]) { // 왼쪽에 보가 있는 경우
     return true;
-  } else if (floor[1][x][y]) {
+  } else if (floor[1][x][y]) { // 보 위에 있는 경우
     return true;
   }
   return false;
 }
 
 function validBeams(floor, n, x, y) {
-  if (floor[0][x][y - 1]) {
+  if (floor[0][x][y - 1]) { // 기둥 위에 있는 경우
     return true;
-  } else if (x < n && floor[0][x + 1][y - 1]) {
+  } else if (x < n && floor[0][x + 1][y - 1]) { // 우측 아래 기둥이 있는 경우
     return true;
-  } else if (x > 0 && x < n && floor[1][x - 1][y] && floor[1][x + 1][y]) {
+  } else if (x > 0 && x < n && floor[1][x - 1][y] && floor[1][x + 1][y]) { // 양 옆에 보가 있는 경우
     return true;
   }
 
@@ -24,29 +24,29 @@ function validBeams(floor, n, x, y) {
 }
 
 function removeColumns(floor, n, x, y) {
-  floor[0][x][y] = false;
-  if (y < n && floor[0][x][y + 1] && !validColumns(floor, x, y + 1)) {
+  floor[0][x][y] = false; // 일단 기둥을 제거하고 주변 구조물 유효성 검사
+  if (y < n && floor[0][x][y + 1] && !validColumns(floor, x, y + 1)) { // 위에 기둥이 있는 경우
     floor[0][x][y] = true;
-  } else if (y < n && floor[1][x][y + 1] && !validBeams(floor, n, x, y + 1)) {
+  } else if (y < n && floor[1][x][y + 1] && !validBeams(floor, n, x, y + 1)) { // 위에 보가 있는 경우
     floor[0][x][y] = true;
-  } else if (x > 0 && floor[1][x - 1][y + 1] && !validBeams(floor, n, x - 1, y + 1)) {
+  } else if (x > 0 && floor[1][x - 1][y + 1] && !validBeams(floor, n, x - 1, y + 1)) { // 좌측 위에 보가 있는 경우
     floor[0][x][y] = true;
   }
 }
 
 function removeBeams(floor, n, x, y) {
-  floor[1][x][y] = false;
-  if (floor[0][x][y] && !validColumns(floor, x, y)) {
+  floor[1][x][y] = false; // 일단 보를 제거하고 주변 구조물 유효성 검사
+  if (floor[0][x][y] && !validColumns(floor, x, y)) { // 현재 위치에 기둥이 존재하는 경우
     floor[1][x][y] = true;
-  } else if (x < n && floor[0][x + 1][y] && !validColumns(floor, x + 1, y)) {
+  } else if (x < n && floor[0][x + 1][y] && !validColumns(floor, x + 1, y)) { // 우측에 기둥이 존재하는 경우
     floor[1][x][y] = true;
-  } else if (x > 0 && x < n && floor[1][x - 1][y] && floor[1][x + 1][y]) {
-    if (!validBeams(floor, n, x - 1, y) || !validBeams(floor, n, x + 1, y)) {
+  } else if (x > 0 && x < n && floor[1][x - 1][y] && floor[1][x + 1][y]) { // 양 옆에 보가 존재하는 경우
+    if (!validBeams(floor, n, x - 1, y) || !validBeams(floor, n, x + 1, y)) { // 둘 중에 하나라도 안되면 true
       floor[1][x][y] = true;
     }
-  } else if (x < n && floor[1][x + 1][y] && !validBeams(floor, n, x + 1, y)) {
+  } else if (x < n && floor[1][x + 1][y] && !validBeams(floor, n, x + 1, y)) { // 우측에만 보가 존재하는 경우
     floor[1][x][y] = true;
-  } else if (x > 0 && floor[1][x - 1][y] && !validBeams(floor, n, x - 1, y)) {
+  } else if (x > 0 && floor[1][x - 1][y] && !validBeams(floor, n, x - 1, y)) { // 좌측에만 보가 존재하는 경우
     floor[1][x][y] = true;
   }
 }
