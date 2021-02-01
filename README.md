@@ -46,7 +46,7 @@
 - [데브옵스(DevOps)](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md)
 - [서드 파티(3rd party)란?](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EC%8D%A8%EB%93%9C%20%ED%8C%8C%ED%8B%B0%20(Third%20Party).md)
 - [Git 과 GitHub 에 대해서](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/Git.md)
-- 정규식
+- [정규식](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EC%A0%95%EA%B7%9C%EC%8B%9D.md)
 - Generic
 - final
 
@@ -104,7 +104,7 @@
 - [SQL Injection](https://github.com/Songwonseok/CS-Study/blob/main/Database/SQL%20Injection.md)
 - [SQL vs NoSQL](https://github.com/Songwonseok/CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)
 - [이상(Anomaly)](https://github.com/Songwonseok/CS-Study/blob/main/Database/Anomaly.md)
-- 정규화
+- [정규화](https://github.com/Songwonseok/CS-Study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
 - 인덱스(INDEX)
 - 트랜잭션(Transaction)
 - 트랜잭션 격리 수준(Transaction Isolation Level)
