@@ -72,7 +72,7 @@
 - [TCPvsUDP](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/TCPvsUDP.md)
 - [대칭키 & 공개키](https://github.com/Songwonseok/CS-Study/blob/feature/Network-tcpudp-key-dh/Network/%EB%8C%80%EC%B9%AD%ED%82%A4%EA%B3%B5%EA%B0%9C%ED%82%A4.md)
 - [HTTP & HTTPS](https://github.com/Songwonseok/CS-Study/blob/main/Network/HTTP%26HTTPS.md)
-- 로드 밸런싱(Load Balancing)
+- [로드 밸런싱(Load Balancing)](https://github.com/Songwonseok/CS-Study/blob/main/Network/%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1.md)
 - Blocking & Non-Blocking I/O
 
   
