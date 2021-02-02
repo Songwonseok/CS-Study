@@ -11,7 +11,7 @@
 
 ### Thread의 생명 주기
 
-- ![java-thread-활용-1](C:\Users\박민식\Desktop\MY문서\CS\CS-Study\Language\images\java-thread-활용-1.png)
+- ![java-thread-활용-1](https://raw.githubusercontent.com/Songwonseok/CS-Study/main/Language/images/java-thread-%ED%99%9C%EC%9A%A9-1.png)
 - Runnable (준비상태) : CPU를 점유하고 있지 않으며, 코딩상에서 start() 메서드 호출로 run() 메소드에 설정된 상태로 진입한다. 보통 "Ready" 상태라고도 한다.
 
 
