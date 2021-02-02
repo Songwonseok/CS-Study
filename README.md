@@ -169,7 +169,7 @@
   - [JS Scope](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Javascript%20Scope.md)
   - [Closure](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Closure.md)
   - [this](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/this.md)
-  - Promise
+  - [Promise](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Promise.md)
   - ECMAScript6
 
 
