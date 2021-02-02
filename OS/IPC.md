@@ -24,14 +24,14 @@
 두 프로세스간의 공유된 메모리를 생성 후 이용하는 것을 말합니다.
 성능이 좋지만 동기화 문제가 발생합니다.(App에서 직접 동기화를 해줘야 합니다.)
 
-![IPC-1](https://github.com/Songwonseok/CS-Study/blob/feature/OS-IPC-dh/OS/images/IPC-1.PNG)
+![IPC-1](https://github.com/Songwonseok/CS-Study/blob/main/OS/images/IPC-1.PNG)
 
-![IPC-2](https://github.com/Songwonseok/CS-Study/blob/feature/OS-IPC-dh/OS/images/IPC-2.PNG)
-
+![IPC-2](https://github.com/Songwonseok/CS-Study/blob/main/OS/images/IPC-2.PNG)
+```
 	- Direct Communication(상단 좌측) : Process A가 커널에 메시지를 직접 주고 그걸 커널이 Process B에게 직접 전달하는 방식
 	- Indirect Communication(하단) : Process A가 커널에 메시지 박스에 넣어두고 B에게 읽어 가라고 하면 Process B가 커널의 메시지 박스에서 읽어오는 방식
 	- Shared memory(상단 우측) : Process A와 B 모두 읽고 쓸 수 있는 메모리를 만들고 거기서 주고받는 방식
-
+```
 
 
 
@@ -47,7 +47,7 @@
 
 **1) PIPE (익명 PIPE)**
 
-![IPC-3](https://github.com/Songwonseok/CS-Study/blob/feature/OS-IPC-dh/OS/images/IPC-3.png)
+![IPC-3](https://github.com/Songwonseok/CS-Study/blob/main/OS/images/IPC-3.png)
 
 \- 위 그림은 PIPE의 작동원리를 보여줍니다. 파이프는 두 개의 프로세스를 연결하게 되고, 하나의 프로세스는 데이터를 쓰기만, 다른 하나는 데이터를 읽기만 할 수 있습니다. 한쪽 방향으로만 통신이 가능한 파이프의 특징 때문에 Half-Duplex(반이중) 통신이라고 부르기도 합니다.
 
