@@ -90,7 +90,7 @@ class Animal {
 
 아래의 그림과 코드를 가지고 업캐스팅의 3가지 핵심 포인트를 살펴보도록 합시다.
 
-![Casting-1](https://github.com/Songwonseok/CS-Study/blob/feature/java-Casting-dh/Language/images/Casting-1.png)
+![Casting-1](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/Casting-1.png)
 
 위 코드에서 업캐스팅이 일어나는 과정
 
@@ -108,7 +108,7 @@ animal_b.giveHand(); // 컴파일 에러
 
 ### 3.2 그럼 다운캐스팅은?
 
-![Casting-2](https://github.com/Songwonseok/CS-Study/blob/feature/java-Casting-dh/Language/images/Casting-2.png)
+![Casting-2](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/Casting-2.png)
 
 뭔가 이상한 다운캐스팅
 
