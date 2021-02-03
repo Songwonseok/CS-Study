@@ -156,7 +156,7 @@
   - [String & StringBuffer & StringBuilder](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/String%20StringBuffer%20StringBuilder.md)
   - [Overriding vs Overloading](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Overriding%20vs%20Overloading.md)
   - [Thread 활용](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Thread%20%ED%99%9C%EC%9A%A9.md)
-  - Casting(업캐스팅 & 다운캐스팅)
+  - [Casting(업캐스팅 & 다운캐스팅)](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Casting.md)
   - Promotion & Casting
   - 고유 락(Intrinsic Lock)
   - Error & Exception
