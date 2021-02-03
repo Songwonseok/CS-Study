@@ -3,7 +3,7 @@
 
 ## 캐스팅이란 무엇일까?
 
-**캐스팅(casting)**이란 타입을 변환하는 것을 말하며 **형변환**이라고도 한다. 자바의 상속 관계에 있는 부모와 자식 클래스 간에는 서로 간의 형변환이 가능하다.
+**캐스팅**(casting)이란 타입을 변환하는 것을 말하며 **형변환**이라고도 한다. 자바의 상속 관계에 있는 부모와 자식 클래스 간에는 서로 간의 형변환이 가능하다.
 
 이번 글에서는 자식 클래스가 부모 클래스의 타입으로 캐스팅되는 **업캐스팅**과 반대로 부모 클래스가 자식 클래스의 타입으로 캐스팅되는 **다운캐스팅**에 대해서 알아본다. 시작하기에 앞서 부모 클래스인 상속 관계의 상위 클래스를 **수퍼 클래스**, 그리고 자식 클래스인 하위 클래스를 **서브 클래스**라고 정의한다.
 
@@ -90,9 +90,7 @@ class Animal {
 
 아래의 그림과 코드를 가지고 업캐스팅의 3가지 핵심 포인트를 살펴보도록 합시다.
 
-![Image for post](https://miro.medium.com/max/60/1*3MwsIRZcM2mi9qj3hjNpwA.png?q=20)
-
-![Image for post](https://miro.medium.com/max/1008/1*3MwsIRZcM2mi9qj3hjNpwA.png)
+![Casting-1](https://github.com/Songwonseok/CS-Study/blob/feature/java-Casting-dh/Language/images/Casting-1.png)
 
 위 코드에서 업캐스팅이 일어나는 과정
 
@@ -110,9 +108,7 @@ animal_b.giveHand(); // 컴파일 에러
 
 ### 3.2 그럼 다운캐스팅은?
 
-![Image for post](https://miro.medium.com/max/60/1*Fal1jh8dLEYmdV7QwoGEPA.png?q=20)
-
-![Image for post](https://miro.medium.com/max/1008/1*Fal1jh8dLEYmdV7QwoGEPA.png)
+![Casting-2](https://github.com/Songwonseok/CS-Study/blob/feature/java-Casting-dh/Language/images/Casting-2.png)
 
 뭔가 이상한 다운캐스팅
 
