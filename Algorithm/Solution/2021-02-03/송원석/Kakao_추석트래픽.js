@@ -29,10 +29,9 @@ function solution(lines) {
   logs.sort((a, b) => a.start - b.start);
 
   for (let i = 0; i < logs.length; i++) {
-    const count1 = getCount(logs[i].start, logs);
-    const count2 = getCount(logs[i].end, logs);
+    const count = getCount(logs[i].end, logs);
 
-    max = Math.max(max, count1, count2);
+    max = Math.max(max, count);
   }
 
   return max;
