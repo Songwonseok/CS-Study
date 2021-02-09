@@ -23,7 +23,7 @@ int b = a;   // byte 데이터 타입의 변수인 a를 int 데이터 타입의 
 
 자동 형변환(Promotion)이 이루어지는 순서를 알아보겠습니다.
 
-[![img](https://github.com/GimunLee/tech-refrigerator/raw/master/Language/JAVA/resources/java-promotion-casting-001.png)](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/resources/java-promotion-casting-001.png)
+![promotion-casting-1](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/promotion-casting-1.png)
 
 보시면, long 데이터 타입의 메모리 크기는 8byte이고, float 데이터 타입의 메모리 크기는 4byte인데, long 데이터 타입에서 float 데이터 타입으로 자동 형변환(Promotion)이 가능합니다. 그 이유는 표현할 수 있는 값의 범위가 float가 더 크기 때문입니다.
 
@@ -45,11 +45,11 @@ byte byteValue = intValue;
 
 위의 경우 intValue에 저장된 1이라는 값은 byte 데이터 타입에도 저장 가능한 값입니다. 그렇지만, 위 코드를 실행하면 컴파일 에러가 발생합니다. 그 이유는 저장될 값 1에 상관없이 int 데이터 타입이 byte 데이터 타입보다 메모리 크기가 크기 때문입니다. 그림으로 보자면,
 
-[![img](https://github.com/GimunLee/tech-refrigerator/raw/master/Language/JAVA/resources/java-promotion-casting-002.png)](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/resources/java-promotion-casting-002.png)
+![promotion-casting-2](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/promotion-casting-2.png)
 
 이와 같은 그림이 나옵니다. int 데이터 타입에 저장된 정수 1의 값은 실제 메모리에 저장될 때 00000000 00000000 00000000 00000001 의 값을 가집니다. 이 값을 byte 데이터 타입에 끝에 1byte(00000001) 영역만 넣자니 앞에있는 3byte (00000000 00000000 00000000) 값이 날아갑니다. 그림으로 보면 이렇습니다.
 
-[![img](https://github.com/GimunLee/tech-refrigerator/raw/master/Language/JAVA/resources/java-promotion-casting-003.png)](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/resources/java-promotion-casting-003.png)
+![promotion-casting-3](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/promotion-casting-3.png)
 
 앞에 3byte의 공간을 삭제하는 시점에서 많은 데이터가 날아가 정상적인 값이 저장될 수 없을 것입니다. 이와 같이 메모리 크기가 큰 int 데이터 타입에서 메모리 크기가 작은 byte 데이터 타입으로 자동 형변환(Promotion)이 된다면, 정상적이지 않은 값이 나올 수 있기 때문에 Java에서 자동 형변환(Promotion)을 하지 않습니다. 하지만, 우리가 형변환 하려는 정수 값은 1 이므로 byte 데이터 타입 범위 안에 충분히 들어가는 값입니다. 우린 그걸 머릿속으로 알고 있기 때문에 byte 데이터 타입으로 변환된다 하더라도 값이 정상적일 거라고 판단할 수 있습니다. 이럴 때 강제 형변환은 아래와 같이 해주시면 됩니다.
 
@@ -85,4 +85,5 @@ int result = intValue + (int) doubleValue;
 ### 참고
 
 https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Promotion%20%26%20Casting.md
+
 https://stage-loving-developers.tistory.com/8
