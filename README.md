@@ -105,7 +105,7 @@
 - [SQL vs NoSQL](https://github.com/Songwonseok/CS-Study/blob/main/Database/SQL%20vs%20NoSQL.md)
 - [이상(Anomaly)](https://github.com/Songwonseok/CS-Study/blob/main/Database/Anomaly.md)
 - [정규화](https://github.com/Songwonseok/CS-Study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
-- 인덱스(INDEX)
+- [인덱스(INDEX)](https://github.com/Songwonseok/CS-Study/blob/main/Database/Index.md)
 - 트랜잭션(Transaction)
 - 트랜잭션 격리 수준(Transaction Isolation Level)
 - 레디스(Redis)
