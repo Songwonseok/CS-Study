@@ -20,7 +20,9 @@ public volatile int cnt = 0;
 ```
 
 스레드가 cnt 값을 증가시키는 작업을 수행할 때 다음 과정을 거친다.
-![img](https://media.vlpt.us/images/nunddu/post/18f81bb1-f393-4263-acab-6890f0a5e98e/image.png)
+
+
+![IntrinsicLock-1](https://github.com/Songwonseok/CS-Study/blob/main/Language/images/IntrinsicLock-1.png)
 
 - 메인 메모리로 부터 자신의 cpu cache 영역에 값을 가져온 후
 - 값을 증가시키고
