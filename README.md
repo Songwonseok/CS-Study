@@ -86,7 +86,7 @@
 - [시스템 콜(System Call)](https://github.com/Songwonseok/CS-Study/blob/main/OS/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C%20(System%20Call).md)
 - [PCB와 Context Switching](https://github.com/Songwonseok/CS-Study/blob/main/OS/PCB%20Context%20Switching.md)
 - [IPC(Inter Process Communication)](https://github.com/Songwonseok/CS-Study/blob/main/OS/IPC.md)
-- CPU 스케줄링
+- [CPU 스케줄링](https://github.com/Songwonseok/CS-Study/blob/main/OS/CPU%20Scheduling.md)
 - 데드락(DeadLock)
 - Race Condition
 - 세마포어(Semaphore) & 뮤텍스(Mutex)
