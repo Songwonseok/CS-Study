@@ -157,8 +157,8 @@
   - [Overriding vs Overloading](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Overriding%20vs%20Overloading.md)
   - [Thread 활용](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Thread%20%ED%99%9C%EC%9A%A9.md)
   - [Casting(업캐스팅 & 다운캐스팅)](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Casting.md)
-  - Promotion & Casting
-  - 고유 락(Intrinsic Lock)
+  - [Promotion & Casting](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Promotion%26Casting.md)
+  - [고유 락(Intrinsic Lock)](https://github.com/Songwonseok/CS-Study/blob/main/Language/Java/Intrinsic%20Lock.md)
   - Error & Exception
   - java 8 & java 11 차이
   - Access Modifier
