@@ -87,7 +87,7 @@
 - [PCB와 Context Switching](https://github.com/Songwonseok/CS-Study/blob/main/OS/PCB%20Context%20Switching.md)
 - [IPC(Inter Process Communication)](https://github.com/Songwonseok/CS-Study/blob/main/OS/IPC.md)
 - [CPU 스케줄링](https://github.com/Songwonseok/CS-Study/blob/main/OS/CPU%20Scheduling.md)
-- 데드락(DeadLock)
+- [데드락(DeadLock)](https://github.com/Songwonseok/CS-Study/blob/main/OS/Deadlock.md)
 - Race Condition
 - 세마포어(Semaphore) & 뮤텍스(Mutex)
 - 페이징 & 세그먼테이션
