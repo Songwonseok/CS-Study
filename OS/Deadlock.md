@@ -4,11 +4,11 @@
 
   ### 데드락(Deadlock)
 
-![deadlock-1](https://github.com/Songwonseok/CS-Study/blob/feature/OS-Deadlock-dh/OS/images/deadlock-1.PNG)
+![deadlock-1](https://github.com/Songwonseok/CS-Study/blob/main/OS/images/deadlock-1.PNG)
 
 
 
-![deadlock-2](https://github.com/Songwonseok/CS-Study/blob/feature/OS-Deadlock-dh/OS/images/deadlock-2.jpg)
+![deadlock-2](https://github.com/Songwonseok/CS-Study/blob/main/OS/images/deadlock-2.jpg)
 
   운영체제에서 데드락(교착상태)이란, 시스템 자원에 대한 요구가 뒤엉킨 상태입니다.
 
