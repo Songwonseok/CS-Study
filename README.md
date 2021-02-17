@@ -171,7 +171,7 @@
   - [Closure](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Closure.md)
   - [this](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/this.md)
   - [Promise](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/Promise.md)
-  - ECMAScript6
+  - [ECMAScript6(=ES6)](https://github.com/Songwonseok/CS-Study/blob/main/Language/Javascript/ECMAScript6.md)
 
 
 
