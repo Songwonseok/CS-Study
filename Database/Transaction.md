@@ -70,7 +70,7 @@ ROLLBACK TO 세이브포인트이름;
 - 데이터베이스 시스템에서 복구 및 병행 수행 시 처리되는 작업의 논리적 단위
 - 한꺼번에 수행되어야 할 일련의 연산
 
-![img](https://k.kakaocdn.net/dn/PDxus/btqB2uxivzk/ERRntkdAzfbibpUlXmtohK/img.png)
+![img](https://github.com/Songwonseok/CS-Study/blob/main/Database/images/Transaction-1.png)
 
 > **활성(Active) :** 트랜잭션이 정상적으로 실행중인 상태
 > **실패(Failed) :** 트랜잭션 실행에 오류가 발생하여 중단된 상태
