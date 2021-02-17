@@ -135,8 +135,9 @@
 - [기수 정렬(Radix Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EA%B8%B0%EC%88%98%20%EC%A0%95%EB%A0%AC(Radix%20Sort).md)
 - [계수 정렬(Count Sort)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Counting%20Sort).md)
 - [비트마스크(BitMask)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EB%B9%84%EC%8A%A4%EB%A7%88%EC%8A%A4%ED%81%AC(BitMask).md)
-- 이분 탐색(Binary Search)
-- 세그먼트 트리
+- [이분 탐색(Binary Search)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89(Binary%20Search).md)
+- [세그먼트 트리](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8%20%ED%8A%B8%EB%A6%AC.md)
+- [해시(Hash)](https://github.com/Songwonseok/CS-Study/blob/main/Algorithm/HashTable.md)
 - DFS & BFS
 - 최장 증가 수열(LIS)
 - 최소 공통 조상(LCA)
