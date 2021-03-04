@@ -102,3 +102,12 @@
 - **T** : Type
 - **V** : Value
 
+
+
+### 참고블로그
+
+[Generic-1](https://preamtree.tistory.com/138)
+
+[Generic-2](http://www.tcpschool.com/java/java_generic_concept)
+
+[Generic-3](https://m.blog.naver.com/PostView.nhn?blogId=itinstructor&logNo=100203119515&proxyReferer=https:%2F%2Fwww.google.com%2F)

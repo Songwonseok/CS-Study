@@ -47,7 +47,7 @@
 - [서드 파티(3rd party)란?](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EC%8D%A8%EB%93%9C%20%ED%8C%8C%ED%8B%B0%20(Third%20Party).md)
 - [Git 과 GitHub 에 대해서](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/Git.md)
 - [정규식](https://github.com/Songwonseok/CS-Study/blob/main/CommonSense/%EC%A0%95%EA%B7%9C%EC%8B%9D.md)
-- Generic
+- [Generic](https://github.com/Songwonseok/CS-Study/blob/feature/CS-Generic/CommonSense/Generic.md)
 - final
 
 
