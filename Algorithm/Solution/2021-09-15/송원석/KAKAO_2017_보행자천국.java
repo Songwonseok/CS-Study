@@ -33,6 +33,11 @@ public class KAKAO_2017_보행자천국 {
 					memo[0][0] = 1;
 					continue;
 				}
+
+				if(cityMap[x][y] == 1){
+					continue;
+				}
+
 				// 1. 좌, 상 값을 더하면 현재 위치 경우의 수
 				// 2. 좌, 상의 값이 2인 경우 같은 방향으로 한칸 더 가야함
 				memo[x][y] = getPathCount(x,y, cityMap, memo, 0)
