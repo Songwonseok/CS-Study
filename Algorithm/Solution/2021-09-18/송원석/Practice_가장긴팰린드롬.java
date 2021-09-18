@@ -21,11 +21,7 @@ public class Practice_가장긴팰린드롬 {
 		int answer = 1;
 
 		for (int i = 0; i < s.length() - 1; i++) {
-			int length = getLength(s, i - 1, i + 1) + 1;
-
-			if (s.charAt(i) == s.charAt(i + 1)) {
-				length = Math.max(length, getLength(s, i, i + 1));
-			}
+			int length = Math.max(getLength(s, i - 1, i + 1) + 1, getLength(s, i, i + 1));
 
 			answer = Math.max(answer, length);
 		}
