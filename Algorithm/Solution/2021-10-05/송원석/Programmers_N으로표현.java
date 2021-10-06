@@ -3,18 +3,6 @@ package Programmers.practice;
 import java.util.HashSet;
 
 public class Programmers_N으로표현 {
-	public int calculate(int num1, char symbol, int num2) {
-		switch(symbol) {
-			case '+' :
-				return num1 + num2;
-			case '-' :
-				return num1 - num2;
-			case '*' :
-				return num1 * num2;
-			default:
-				return num1 / num2;
-		}
-	}
 
 	public int solution(int N, int number) {
 		HashSet<Integer>[] dp = new HashSet[9];
@@ -34,11 +22,11 @@ public class Programmers_N으로표현 {
 
 				for(int num1 : left) {
 					for(int num2 : right) {
-						dp[i].add(calculate(num1, '+', num2));
-						dp[i].add(calculate(num1, '-', num2));
-						dp[i].add(calculate(num1, '*', num2));
+						dp[i].add(num1 + num2));
+						dp[i].add(num1 - num2));
+						dp[i].add(num1 * num2));
 						if(num2 != 0)
-							dp[i].add(calculate(num1, '/', num2));
+							dp[i].add(num1 / num2));
 					}
 				}
 			}
